@@ -5,18 +5,3 @@ title: Faysel Player Wiki
 # Faysel Player Wiki
 
 ## Browse
-- [[Areas/index|Areas]]
-- [[County/index|County]]
-- [[Deities/index|Deities]]
-- [[Districts/index|Districts]]
-- [[Geography/index|Geography]]
-- [[Mechanics/index|Mechanics]]
-- [[NPCs/index|NPCs]]
-- [[Oceans/index|Oceans]]
-- [[Organizations/index|Organizations]]
-- [[Parties/index|Parties]]
-- [[Planes/index|Planes]]
-- [[Planets/index|Planets]]
-- [[Points of Interest/index|Points of Interest]]
-- [[Settlements/index|Settlements]]
-- [[Vehicles/index|Vehicles]]
