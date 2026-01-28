@@ -1,0 +1,62 @@
+@use "./base.scss";
+
+/* Long-term infobox (table-based) */
+.infobox {
+  float: right;
+  width: 300px;
+  margin: 0 0 1rem 1rem;
+
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  background: var(--light);
+  padding: 0.75rem;
+}
+
+.infobox .infobox-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.infobox table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.infobox th,
+.infobox td {
+  border: 1px solid var(--lightgray);
+  padding: 0.4rem 0.5rem;
+  vertical-align: top;
+}
+
+.infobox th {
+  text-align: left;
+  width: 40%;
+  font-weight: 600;
+}
+
+.infobox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .infobox {
+    float: none;
+    width: auto;
+    margin: 0 0 1rem 0;
+  }
+}
+
+.infobox-image{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  margin: 0.5rem 0 0.75rem;
+}
