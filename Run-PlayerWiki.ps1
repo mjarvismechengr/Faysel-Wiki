@@ -1,7 +1,8 @@
 param(
   [string]$SourceVault      = "C:\Users\mjarv\Documents\Personal\D&D\Faysel\Faysel Obsidian\Faysel Master",
   [string]$ScopeSubfolder   = "Campaign",
-  [string]$WikiRoot         = "C:\Users\mjarv\Documents\Personal\D&D\Faysel\Other\webstuff\Faysel-Wiki"
+  [string]$WikiRoot         = "C:\Users\mjarv\Documents\Personal\D&D\Faysel\Other\webstuff\Faysel-Wiki",
+  [switch]$ValidateOnly
 )
 
 $ErrorActionPreference = "Stop"
@@ -14,6 +15,12 @@ if (-not (Test-Path -LiteralPath $exporter)) {
 $QuartzContentOut = Join-Path $WikiRoot "content"
 
 Write-Host "== Exporting player wiki ==" -ForegroundColor Cyan
+  if ($ValidateOnly) {
+  & $exporter -SourceVault $SourceVault -QuartzContentOut $QuartzContentOut -ScopeSubfolder $ScopeSubfolder -ValidateOnly
+  Write-Host "ValidateOnly complete; not starting server." -ForegroundColor Yellow
+  return
+}
+
 & $exporter -SourceVault $SourceVault -QuartzContentOut $QuartzContentOut -ScopeSubfolder $ScopeSubfolder
 
 Write-Host "== Starting Quartz dev server ==" -ForegroundColor Cyan

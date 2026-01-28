@@ -1,15 +1,15 @@
 param(
-  [Parameter(Mandatory=$true)]
+  [Parameter(Mandatory = $true)]
   [string]$SourceVault,
 
-  [Parameter(Mandatory=$true)]
+  [Parameter(Mandatory = $true)]
   [string]$QuartzContentOut,
 
-  # Optional: only export notes under this subfolder (e.g. "Campaign")
-  [string]$ScopeSubfolder = ""
+  [string]$ScopeSubfolder = "",
 
-  [switch]$ValidateOnly = $false,
-  [switch]$FailOnWarnings = $false
+  [switch]$ValidateOnly,
+
+  [switch]$FailOnWarnings
 )
 
 # ---------- Helpers: YAML frontmatter parsing (simple, robust enough for your use) ----------
