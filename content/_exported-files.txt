@@ -1,0 +1,17 @@
+﻿Areas/Pabambaju Desert.md
+County/Kingdom of Thrane/Duchy of Vaelwyth/Eldhollow County.md
+Deities/Greater Deities/Castor.md
+Districts/Seabrook/Old Seabrook.md
+Geography/Continents/Aetheria.md
+Mechanics/Minigames/Card Games/Griffon's Wall.md
+NPCs/Akman Jaziri.md
+NPCs/Test NPC.md
+Oceans/Nagaru Ocean.md
+Organizations/Religions/Greater Deities/Church of Castor.md
+Parties/Adventures/Party 1/Arc 1.md
+Parties/Quests/Party 1/Salvage Operation.md
+Planes/Outer Planes/The Nine Hells of Baator.md
+Planets/Faysel.md
+Points of Interest/Party Location.md
+Settlements/Honu.md
+Vehicles/Emperor of the Waves.md

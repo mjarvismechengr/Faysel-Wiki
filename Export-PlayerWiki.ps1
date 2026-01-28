@@ -1,16 +1,29 @@
 param(
-  [Parameter(Mandatory = $true)]
+  [Parameter(Mandatory=$true)]
   [string]$SourceVault,
 
-  [Parameter(Mandatory = $true)]
+  [Parameter(Mandatory=$true)]
   [string]$QuartzContentOut,
 
-  [string]$ScopeSubfolder = "",
+  [string]$ScopeSubfolder = "Campaign",
 
+  # Run modes
   [switch]$ValidateOnly,
 
-  [switch]$FailOnWarnings
+  # Index generation
+  [switch]$MakeFolderIndexes,
+  [switch]$MakeTypeIndexes,
+  [string]$IndexFolderName = "_Indexes",
+  [string]$IndexTitle      = "Faysel Player Wiki",
+
+  # Output/behavior switches
+  [switch]$FailOnWarnings,
+  [switch]$ShowInfo,
+  [bool]$WriteExportList  = $true,
+  [bool]$CleanStaleContent = $true,
+  [bool]$CleanOrphanAssets = $false
 )
+
 
 # ---------- Helpers: YAML frontmatter parsing (simple, robust enough for your use) ----------
 
@@ -387,6 +400,7 @@ function Copy-AssetIfExists {
     $destDir = Split-Path $destAbs -Parent
     New-Item -ItemType Directory -Force -Path $destDir | Out-Null
     Copy-Item -Force -LiteralPath $sourceAbs -Destination $destAbs
+    [void]$CopiedAssets.Add(($assetRel -replace '\\','/'))
   }
 }
 
@@ -531,42 +545,20 @@ $files = Get-ChildItem -Path $root -Recurse -Filter *.md -File
 # Track what we exported so we can build indexes at the end
 $ExportedRelPaths = New-Object System.Collections.Generic.List[string]
 $ExportedByType   = @{}   # type -> list of relpaths
+$CopiedAssets    = New-Object System.Collections.Generic.HashSet[string]  # assets copied this run
 
-$Warnings = New-Object System.Collections.Generic.List[string]
-$Scanned = 0
-$WouldExport = 0
 
 foreach ($f in $files) {
   $raw = Get-Content -LiteralPath $f.FullName -Raw -Encoding UTF8
   $raw = Strip-ObsidianComments $raw
 
-  $Scanned++
-
   $fmBlock = Get-FrontmatterBlock $raw
   $fm = Parse-Frontmatter $fmBlock
 
+  if (-not (Normalize-Bool $fm["player_visible"])) { continue }
+
   $playerText = Extract-PlayerBlocks $raw
-  $hasPlayerBlock = [bool]$playerText
-
-  $pv = Normalize-Bool $fm["player_visible"]
-
-  # Warnings for common footguns
-  if ($pv -and -not $hasPlayerBlock) {
-  $Warnings.Add("SKIP: player_visible=true but no :::player block -> $($f.FullName)") | Out-Null
-  continue
-  }
-
-  if (-not $pv -and $hasPlayerBlock) {
-  $Warnings.Add("SKIP: has :::player block but player_visible!=true -> $($f.FullName)") | Out-Null
-  continue
-  }
-
-  if (-not $pv) { continue }          # must be explicit opt-in
-  if (-not $hasPlayerBlock) { continue }  # must have player block for safety
-
-  if (-not $fm.ContainsKey("type") -or [string]::IsNullOrWhiteSpace($fm["type"])) {
-  $Warnings.Add("WARN: missing type in frontmatter -> $($f.FullName)") | Out-Null
-  }
+  if (-not $playerText) { continue } # require player blocks for safety
 
   $title = [System.IO.Path]::GetFileNameWithoutExtension($f.Name)
   $infobox = Build-InfoboxMarkdown -Title $title -fm $fm
@@ -579,12 +571,6 @@ foreach ($f in $files) {
   $relative = $f.FullName.Substring($root.Length).TrimStart('\','/')
   $relNorm = $relative -replace '\\','/'   # Quartz-friendly
   $ExportedRelPaths.Add($relNorm) | Out-Null
-  $WouldExport++
-
-  if ($ValidateOnly) {
-  continue
-  }
-
   $destPath = Join-Path $QuartzContentOut $relative
   $destDir  = Split-Path $destPath -Parent
   New-Item -ItemType Directory -Force -Path $destDir | Out-Null
@@ -723,16 +709,105 @@ if ($MakeFolderIndexes -or $MakeTypeIndexes) {
   }
 }
 
-Write-Host ""
-Write-Host "Validation summary:"
-Write-Host "  Scanned:      $Scanned"
-Write-Host "  Would export: $WouldExport"
-Write-Host "  Warnings:     $($Warnings.Count)"
-if ($Warnings.Count -gt 0) {
-  Write-Host ""
-  Write-Host "Warnings:"
-  $Warnings | ForEach-Object { Write-Host "  - $_" }
-  if ($FailOnWarnings) { throw "FailOnWarnings enabled and warnings were found." }
+
+# ---------- Optional: write list of exported pages ----------
+if ($WriteExportList) {
+  $listPath = Join-Path $QuartzContentOut "_exported-files.txt"
+  $ExportedRelPaths |
+    Sort-Object |
+    Set-Content -LiteralPath $listPath -Encoding UTF8
 }
 
+# ---------- Optional: clean stale markdown from previous exports ----------
+# Removes *.md files under the Quartz content folder that were NOT exported this run.
+# Safety exclusions: index pages, _Indexes, and export report files.
+if ($CleanStaleContent) {
+  $keep = New-Object System.Collections.Generic.HashSet[string]
+  $ExportedRelPaths | ForEach-Object { [void]$keep.Add($_) }
+
+  $existingMd = Get-ChildItem -LiteralPath $QuartzContentOut -Recurse -File -Filter "*.md" -ErrorAction SilentlyContinue
+  $stale = New-Object System.Collections.Generic.List[string]
+
+  foreach ($file in $existingMd) {
+    $rel = $file.FullName.Substring($QuartzContentOut.Length).TrimStart('\','/') -replace '\\','/'
+
+    if ($rel -match '^_Indexes(/|$)') { continue }
+    if ($rel -match '^index\.md$' -or $rel -match '/index\.md$') { continue }
+    if ($rel -match '^_export-report\.txt$') { continue }
+    if ($rel -match '^_exported-files\.txt$') { continue }
+
+    if (-not $keep.Contains($rel)) {
+      $stale.Add($rel) | Out-Null
+      if (-not $ValidateOnly) {
+        Remove-Item -LiteralPath $file.FullName -Force -ErrorAction SilentlyContinue
+      }
+    }
+  }
+
+  if ($stale.Count -gt 0) {
+    $dry = if ($ValidateOnly) { "(dry-run) " } else { "" }
+    $Info.Add(("CLEAN: stale markdown " + $dry + "removed: " + $stale.Count)) | Out-Null
+  }
+}
+
+# ---------- Optional: clean orphan assets ----------
+# Treats any file under z_Assets as "in-scope" assets. If not copied this run, it is considered orphaned.
+if ($CleanOrphanAssets) {
+  $assetRoot = Join-Path $QuartzContentOut "z_Assets"
+  if (Test-Path $assetRoot) {
+    $assets = Get-ChildItem -LiteralPath $assetRoot -Recurse -File -ErrorAction SilentlyContinue
+    $orphans = New-Object System.Collections.Generic.List[string]
+
+    foreach ($a in $assets) {
+      $rel = $a.FullName.Substring($QuartzContentOut.Length).TrimStart('\','/') -replace '\\','/'
+      if (-not $CopiedAssets.Contains($rel)) {
+        $orphans.Add($rel) | Out-Null
+        if (-not $ValidateOnly) {
+          Remove-Item -LiteralPath $a.FullName -Force -ErrorAction SilentlyContinue
+        }
+      }
+    }
+
+    if ($orphans.Count -gt 0) {
+      $dry = if ($ValidateOnly) { "(dry-run) " } else { "" }
+      $Info.Add(("CLEAN: orphan assets " + $dry + "removed: " + $orphans.Count)) | Out-Null
+    }
+  }
+}
+
+
+
 Write-Host "Export complete: $(Get-Date)"
+
+# SIG # Begin signature block
+# MIIFiAYJKoZIhvcNAQcCoIIFeTCCBXUCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUdmKAP1gElcBckcztuBVHYDwR
+# NpegggMaMIIDFjCCAf6gAwIBAgIQcPphZdBOpIhOhIcru1JmKTANBgkqhkiG9w0B
+# AQsFADAjMSEwHwYDVQQDDBhMb2NhbCBQb3dlclNoZWxsIFNjcmlwdHMwHhcNMjYw
+# MTI4MjA1OTQyWhcNMjcwMTI4MjExOTQyWjAjMSEwHwYDVQQDDBhMb2NhbCBQb3dl
+# clNoZWxsIFNjcmlwdHMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDi
+# LpTC2Nl/BVo7hxX+9qqU7CHwK9TcEFzxiiy+LnURv2I6i5vJfE7i8DHF0L0q3rsb
+# Sa0gVyDtmPgHyBIcesW+RIvv/rn8Ggwd77fU9JlwhN0kSpExySWHX/cGW2U2NjaU
+# u6rRa0bVoIqR7NUMqiwtWRw1WUPlnAhXHuyXajfNDge+fZ81So6rEz9gKssdIxg/
+# +zaQfy9sVIZL1iddLNUx4YDjWhM0qVF4ByfcWLJGeLc2B793RiKzm7YOgvwo+hNu
+# KUASvpmpOSBRPigJzKX/t0Y/Je8cR6sdYj26RqqJCWhUpwQjqZDbqLuFctWUddBu
+# cz0K30DRtemO5iAedjqBAgMBAAGjRjBEMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUE
+# DDAKBggrBgEFBQcDAzAdBgNVHQ4EFgQU1s1lOVpSMSSCgS7l3NHMON4i3I4wDQYJ
+# KoZIhvcNAQELBQADggEBAGukQPwUQHi6KS/T4LpTm6janaFoACHL8IFsLdsimXKL
+# U8qoSl30uM+CTEYV1QloB41lhyJyUutYkjIqZDgA7Uk793mgot3pv0d0nYCrxVMS
+# U8DQupRGzYiI0XPCHybr1dAHiGlD7RlykmS+8J3uH9rsa+xXcQeH/Vr1e4jgvhRv
+# WEIGKQtieA4Ps5hsBGGGHgW7SJz5jeVryfXNuI52/QEa/ohRs4XDJYMe7p5urRKg
+# Ckk/Oex81lGRRgQwfWadt7TIiqNovyr+XPADGu9w594PRuupjWMpDHDth3XnDHVZ
+# ntGcyXIpJUfZVF5zbxfZqi9aOgaVPc4aRI1O1bLKehcxggHYMIIB1AIBATA3MCMx
+# ITAfBgNVBAMMGExvY2FsIFBvd2VyU2hlbGwgU2NyaXB0cwIQcPphZdBOpIhOhIcr
+# u1JmKTAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEKMAigAoAAoQKAADAZBgkq
+# hkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGC
+# NwIBFTAjBgkqhkiG9w0BCQQxFgQUshvNv8dTJJNa9zspgMSy5v95MAAwDQYJKoZI
+# hvcNAQEBBQAEggEAbZJAM333/B69JQLKqz9Rc7D3xpuH1npPkkdyGBH1K5Uv71go
+# WLXb1w9I/JnWgUeGm9ZHV/cUv0mvHN/sMWP0lZGNTr3ovW5or5Rv6SjmW4rKH86c
+# cFUKHH/XJ7r8RBlx3VRYTKVOX9sZoZKJMG/PUB5pduN0HLvLNv9JmQl5Ed1PJEfy
+# Jehk8tcju6JS3lAuOZid3KtvZb74oqzZF94ZmPE/wztQvqDZ+CkpZIgzG6E8q9fM
+# nFgrQx0gxOarx3ZXZ0gB9yc86HqnNXTWmLPN4JqeeCbLS1cqMWniMCTG6OZmRwrS
+# 8d5RajgiFZI15wJrOANG9E0IK93/NCfUQUFRyA==
+# SIG # End signature block
