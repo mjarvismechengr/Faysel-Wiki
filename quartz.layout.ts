@@ -38,7 +38,9 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Components.Explorer({
+      excludeFolders: ["_Indexes"],
+    }),
   ],
   right: [
     Component.Graph(),
