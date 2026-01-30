@@ -66,5 +66,11 @@ In general, Asmodeus regards other evil gods as competitors rather than comrades
 
 ## Myth and History
 
-In the earliest age, when the gods still shaped Faysel directly, Asmodeus was counted among the chief creators of mortal life. Even then, he was ambitious and perceptive, watching for weakness among his peers. When his brother [[Komaku]] began to fracture under his own nature, Asmodeus exploited the moment, feeding his paranoia through careful whispers and subtle influence. This manipulation culminated in Komaku’s killing of [[Ukaleq]], an act that shocked the pantheon and triggered a cosmic unraveling that led to the Sundering. As the gods withdrew into grief and debate, Asmodeus remained undiscovered as the instigator. When Ukaleq returned and argued for the necessity of death and endings, Asmodeus supported the cleansing of Faysel and the creation of [[Manai]], recognizing immediately how mortal ambition could be weaponized through shortened lifespans. In the chaos that followed, Asmodeus flourished. He forged secret pacts with mortals seeking to escape death, powerlessness, or obscurity. His influence spread unchecked until Komaku’s first demonic incursion exposed his treachery and marked Asmodeus as a cosmic adversary rather than a fallen ally.
+In the earliest age, when the gods still shaped Faysel directly, Asmodeus was counted among the chief creators of mortal life. Even then, he was ambitious and perceptive, watching for weakness among his peers. 
+
+When his brother [[Komaku]] began to fracture under his own nature, Asmodeus exploited the moment, feeding his paranoia through careful whispers and subtle influence. This manipulation culminated in Komaku’s killing of [[Ukaleq]], an act that shocked the pantheon and triggered a cosmic unraveling that led to the Sundering. 
+
+As the gods withdrew into grief and debate, Asmodeus remained undiscovered as the instigator. When Ukaleq returned and argued for the necessity of death and endings, Asmodeus supported the cleansing of Faysel and the creation of [[Manai]], recognizing immediately how mortal ambition could be weaponized through shortened lifespans. 
+
+In the chaos that followed, Asmodeus flourished. He forged secret pacts with mortals seeking to escape death, powerlessness, or obscurity. His influence spread unchecked until Komaku’s first demonic incursion exposed his treachery and marked Asmodeus as a cosmic adversary rather than a fallen ally.
 
