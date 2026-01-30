@@ -1,0 +1,44 @@
+﻿Deities/Demigods/Kami/Kami.md
+Deities/Demigods/Og'riq.md
+Deities/Greater Deities/Asmodeus.md
+Deities/Greater Deities/Calypso.md
+Deities/Greater Deities/Castor.md
+Deities/Greater Deities/Cyra.md
+Deities/Greater Deities/Cyrus.md
+Deities/Greater Deities/Iskandar.md
+Deities/Greater Deities/Komaku.md
+Deities/Greater Deities/Manai.md
+Deities/Greater Deities/Nanuk.md
+Deities/Greater Deities/Pestilina.md
+Deities/Greater Deities/Rambak.md
+Deities/Greater Deities/Rodikar.md
+Deities/Greater Deities/Solara.md
+Deities/Greater Deities/Thalia.md
+Deities/Greater Deities/Ukaleq.md
+Deities/Greater Deities/Xalzotec.md
+Geography/Continents/Aequitorra.md
+Geography/Continents/Al'Dira.md
+Geography/Continents/Dimaheim.md
+Geography/Continents/Isomar.md
+Geography/Continents/Tekislar.md
+Geography/Continents/Wanakona.md
+Geography/Continents/Yoseju.md
+Oceans/Mangchida Ocean.md
+Oceans/Nagaru Ocean.md
+Oceans/Seas/Blood Sea.md
+Oceans/Seas/Dragon Scar Sea.md
+Oceans/Seas/Sapphire Sea.md
+Oceans/Seas/Siren Sea.md
+Oceans/Seas/Stovlok Sea.md
+Oceans/Seas/Sunset Sea.md
+Oceans/Stormwind Ocean.md
+Oceans/Tiber Ocean.md
+Planes/Astral Sea.md
+Planes/Inner Planes/Elemental Planes.md
+Planes/Inner Planes/Feywild.md
+Planes/Inner Planes/Material Plane.md
+Planes/Inner Planes/Shadowfell.md
+Planes/Outer Planes/Abyss.md
+Planes/Outer Planes/Nine Hells of Baator.md
+Planets/Castor's Eye.md
+Planets/Faysel.md
