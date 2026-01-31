@@ -16,6 +16,9 @@ Deities/Greater Deities/Solara.md
 Deities/Greater Deities/Thalia.md
 Deities/Greater Deities/Ukaleq.md
 Deities/Greater Deities/Xalzotec.md
+Districts/Seabrook/Old Seabrook.md
+Districts/Seabrook/Seabrook Island.md
+Districts/Seabrook/South Seabrook.md
 Geography/Continents/Aequitorra.md
 Geography/Continents/Al'Dira.md
 Geography/Continents/Dimaheim.md
@@ -23,6 +26,9 @@ Geography/Continents/Isomar.md
 Geography/Continents/Tekislar.md
 Geography/Continents/Wanakona.md
 Geography/Continents/Yoseju.md
+Literature/Runic Fragmenta.md
+Literature/The Chains of Divinity.md
+Literature/The Magical Properties of Gemstones.md
 Lore/Calendar/Eras/Age of Wonder.md
 Lore/Calendar/Eras/Post-Sundering.md
 Lore/Calendar/Eras/The Founding.md
@@ -46,8 +52,11 @@ Lore/Materials/Moon Silver.md
 Lore/Materials/Tyrite.md
 Lore/Rumours/Alchemist's House is Haunted.md
 Lore/Rumours/Alchemy Ingredients in Marshfield.md
+Lore/Rumours/Greg's Magical Tools.md
 Lore/Rumours/Island worshippers need supplies.md
 Lore/Rumours/Manticore Near the Mine.md
+Lore/Rumours/Raiders in Winskey.md
+Lore/Rumours/Seabrook Evening Patrol.md
 Lore/Rumours/Tragedy in the Mines.md
 Mechanics/Minigames/Card Games/Griffon's Wall.md
 Mechanics/Minigames/Dice Games/Dice Hydras.md
@@ -94,3 +103,6 @@ Planes/Outer Planes/Abyss.md
 Planes/Outer Planes/Nine Hells of Baator.md
 Planets/Castor's Eye.md
 Planets/Faysel.md
+Vehicles/Soul of Winter.md
+Vehicles/The Sea Ghost.md
+Vehicles/The Typhoon.md
