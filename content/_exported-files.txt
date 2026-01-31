@@ -45,6 +45,9 @@ Lore/Materials/Chameleite.md
 Lore/Materials/Moon Silver.md
 Lore/Materials/Tyrite.md
 Lore/Rumours/Alchemist's House is Haunted.md
+Lore/Rumours/Alchemy Ingredients in Marshfield.md
+Lore/Rumours/Island worshippers need supplies.md
+Lore/Rumours/Manticore Near the Mine.md
 Lore/Rumours/Tragedy in the Mines.md
 Mechanics/Minigames/Card Games/Griffon's Wall.md
 Mechanics/Minigames/Dice Games/Dice Hydras.md
