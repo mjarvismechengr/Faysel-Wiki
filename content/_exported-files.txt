@@ -1,4 +1,27 @@
-﻿Areas/Endor Forest.md
+﻿Areas/Brannach River.md
+Areas/Dramsvol Fjord.md
+Areas/Eldhollow River.md
+Areas/Endor Forest.md
+Areas/Gold Grass Prairie.md
+Areas/Goldwood.md
+Areas/Iron Hills.md
+Areas/Itum River.md
+Areas/Itzapantli River.md
+Areas/Ixchitl Cordillera.md
+Areas/Jotunspire Peaks.md
+Areas/Jvarro Jungle.md
+Areas/Koryx River.md
+Areas/Maru Desert.md
+Areas/Mistspires.md
+Areas/Padrich Woods.md
+Areas/Roaring Brook River.md
+Areas/Siren Coast.md
+Areas/Sky Razor Range.md
+Areas/Sunrise Cliffs.md
+Areas/Thrymholt Glacier.md
+Areas/Veirn River.md
+Areas/West Marsh.md
+Areas/Wolftrap Woods.md
 Deities/Demigods/Kami/Kami.md
 Deities/Demigods/Og'riq.md
 Deities/Greater Deities/Asmodeus.md
