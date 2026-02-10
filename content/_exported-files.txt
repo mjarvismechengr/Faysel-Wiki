@@ -22,6 +22,13 @@ Areas/Thrymholt Glacier.md
 Areas/Veirn River.md
 Areas/West Marsh.md
 Areas/Wolftrap Woods.md
+County/Kingdom of Thrane/Duchy of Vaelwyth/Duchy of Vaelwyth.md
+County/Kingdom of Thrane/Duchy of Vaelwyth/Eldhollow County.md
+County/Kingdom of Thrane/Duchy of Vaelwyth/Timber County.md
+County/Kingdom of Thrane/Duchy of Valorden/Duchy of Valorden.md
+County/Kingdom of Thrane/Duchy of Valorden/Highvale County.md
+County/Kingdom of Thrane/Duchy of Valorden/Valenreach County.md
+County/Shimazu Shogunate/Umi-no-Kaze Prefecture.md
 Deities/Demigods/Kami/Kami.md
 Deities/Demigods/Og'riq.md
 Deities/Greater Deities/Asmodeus.md
@@ -125,6 +132,11 @@ Magic Items/Waste Cycler.md
 Mechanics/Minigames/Card Games/Griffon's Wall.md
 Mechanics/Minigames/Dice Games/Dice Hydras.md
 Mechanics/Minigames/Other/Goblin's Eye.md
+NPCs/Unknown/Darius Velmor.md
+NPCs/Unknown/Everard Wallace.md
+NPCs/Unknown/Herenya Bewne.md
+NPCs/Unknown/Mirelle Rotryett.md
+NPCs/Unknown/Stenwulf Vael.md
 Oceans/Mangchida Ocean.md
 Oceans/Nagaru Ocean.md
 Oceans/Seas/Blood Sea.md
@@ -135,6 +147,16 @@ Oceans/Seas/Stovlok Sea.md
 Oceans/Seas/Sunset Sea.md
 Oceans/Stormwind Ocean.md
 Oceans/Tiber Ocean.md
+Organizations/Governments/Dimaheim Horde/Dimaheim Horde.md
+Organizations/Governments/Kingdom of Thrane/House Bewne/House Bewne.md
+Organizations/Governments/Kingdom of Thrane/House Solmara.md
+Organizations/Governments/Kingdom of Thrane/House Vael/House Rotryett.md
+Organizations/Governments/Kingdom of Thrane/House Vael/House Vael.md
+Organizations/Governments/Kingdom of Thrane/House Vael/House Wallace.md
+Organizations/Governments/Kingdom of Thrane/Kingdom of Thrane.md
+Organizations/Governments/Shimazu Shogunate/Clan Sakai.md
+Organizations/Governments/Shimazu Shogunate/Clan Takeda.md
+Organizations/Governments/Shimazu Shogunate/Shimazu Shogunate.md
 Parties/Adventures/Party 1/Arc 1.md
 Parties/Characters/Party 1/Altair Flickerfoot.md
 Parties/Characters/Party 1/Arthur Mourhan.md
