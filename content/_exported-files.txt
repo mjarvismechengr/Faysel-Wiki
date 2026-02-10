@@ -26,8 +26,6 @@ County/Kingdom of Thrane/Duchy of Vaelwyth/Duchy of Vaelwyth.md
 County/Kingdom of Thrane/Duchy of Vaelwyth/Eldhollow County.md
 County/Kingdom of Thrane/Duchy of Vaelwyth/Timber County.md
 County/Kingdom of Thrane/Duchy of Valorden/Duchy of Valorden.md
-County/Kingdom of Thrane/Duchy of Valorden/Highvale County.md
-County/Kingdom of Thrane/Duchy of Valorden/Valenreach County.md
 County/Shimazu Shogunate/Umi-no-Kaze Prefecture.md
 Deities/Demigods/Kami/Kami.md
 Deities/Demigods/Og'riq.md
@@ -93,23 +91,26 @@ Lore/Languages.md
 Lore/Materials/Chameleite.md
 Lore/Materials/Moon Silver.md
 Lore/Materials/Tyrite.md
-Lore/Rumours/Alchemist's House is Haunted.md
 Lore/Rumours/Alchemy Ingredients in Marshfield.md
 Lore/Rumours/Greg's Magical Tools.md
-Lore/Rumours/Island worshippers need supplies.md
-Lore/Rumours/Manticore Near the Mine.md
 Lore/Rumours/Raiders in Winskey.md
+Lore/Rumours/Resolved/Alchemist's House is Haunted.md
+Lore/Rumours/Resolved/Island worshippers need supplies.md
+Lore/Rumours/Resolved/Manticore Near the Mine.md
 Lore/Rumours/Seabrook Evening Patrol.md
 Lore/Rumours/Tragedy in the Mines.md
-Magic Items/Blue Steel.md
-Magic Items/Crackle.md
-Magic Items/Dead Blow.md
-Magic Items/Delver's Duster.md
-Magic Items/Desert's Eye.md
-Magic Items/Itamae.md
 Magic Items/Morphesium.md
-Magic Items/Pendant of Perpetuity.md
-Magic Items/Red Terror.md
+Magic Items/Quoridon Party/Blue Steel.md
+Magic Items/Quoridon Party/Crackle.md
+Magic Items/Quoridon Party/Dead Blow.md
+Magic Items/Quoridon Party/Delver's Duster.md
+Magic Items/Quoridon Party/Desert's Eye.md
+Magic Items/Quoridon Party/Itamae.md
+Magic Items/Quoridon Party/Pendant of Perpetuity.md
+Magic Items/Quoridon Party/Red Terror.md
+Magic Items/Quoridon Party/Stoppered Oasis.md
+Magic Items/Quoridon Party/Totem of Beast Friendship.md
+Magic Items/Quoridon Party/Waste Cycler.md
 Magic Items/Relics of Sundering/Cloak of Shadows.md
 Magic Items/Relics of Sundering/Contagion Caduceus.md
 Magic Items/Relics of Sundering/Crescent Crook.md
@@ -126,13 +127,9 @@ Magic Items/Relics of Sundering/The Warden's Take.md
 Magic Items/Relics of Sundering/Unkhati.md
 Magic Items/Relics of Sundering/Worldshaper.md
 Magic Items/Shackles of Supremacy.md
-Magic Items/Stoppered Oasis.md
-Magic Items/Totem of Beast Friendship.md
-Magic Items/Waste Cycler.md
 Mechanics/Minigames/Card Games/Griffon's Wall.md
 Mechanics/Minigames/Dice Games/Dice Hydras.md
 Mechanics/Minigames/Other/Goblin's Eye.md
-NPCs/Unknown/Darius Velmor.md
 NPCs/Unknown/Everard Wallace.md
 NPCs/Unknown/Herenya Bewne.md
 NPCs/Unknown/Mirelle Rotryett.md
