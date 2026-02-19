@@ -26,14 +26,19 @@ This philosophy is embodied most clearly in [[King's Blessing]], the crown of Cy
 
 The crown does not empower tyranny, conquest, or fear. Instead, it binds the ruler to clarity of judgment and the weight of consequence. In this way, House Solmara does not merely _possess_ a relic of divine law. It submits to one. The continued reign of the house is therefore seen not as proof of invincibility, but as evidence of endurance under scrutiny.
 
-### Notable Members
+### Rule and Reputation
 
-- [[Lytharion Solmara]]  
-    The current monarch of Thrane. Lytharion is a reform-minded ruler who believes law must be actively maintained rather than merely preserved. His reign stabilized the kingdom after decades of bureaucratic decay and noble excess, but his insistence on accountability has earned him powerful enemies. He rules openly beneath King’s Blessing and is keenly aware that its judgment reflects not only on himself, but on House Solmara as a whole.
-    
-- [[Elyssara Solmara]]
-    Heir apparent and the most visible face of the kingdom to its common people. Elyssara is widely loved for her compassion, accessibility, and concern for civic welfare. While she reveres the law, she questions how rigidly it must be applied, a stance that inspires hope among reformers and unease among traditionalists. Many believe her eventual reign will define whether Thrane hardens or softens in the generations to come.
-    
-- [[Dareth Solmara]]  
-    Father of Lytharion and a pivotal figure in Solmara history. His peaceful but passive rule allowed corruption and factionalism to take root across Thrane’s institutions. Within the house, his reign is remembered not with hatred, but as a warning: legitimacy can erode quietly if left unexamined.
+House Solmara governs Thrane as a legal monarchy rather than a personal one. Royal authority is exercised through courts, charters, and sworn institutions, with the Crown positioned as the final arbiter rather than the primary actor. 
+
+Among the nobility, Solmara rule is respected but not universally loved. The house’s insistence on accountability has curtailed privileges that once went unchallenged, and its reforms have disrupted long-standing arrangements between crown and vassal. Support for the house often aligns with belief in centralized law, while opposition tends to come from families whose influence depended on ambiguity or exemption.
+
+Among commoners and civic authorities, House Solmara enjoys broad legitimacy. The crown’s visibility, consistency, and willingness to bind itself publicly to law has fostered trust even during periods of hardship. While individual monarchs rise and fall in popularity, the house itself is widely viewed as the stabilizing constant of the realm.
+
+At the international level, Solmara rule lends Thrane a reputation for predictability. Treaties, oaths, and borders enforced by the Crown are generally honored across generations, making Thrane a reliable if inflexible power.
+
+### Heraldry and Colors
+
+House Solmara’s heraldry bears a gold winged sword balances on its tip upon a blue and white field. 
+
+All soldiers of Thrane wear the King’s Pattern in white trimmed with their Duchy's colors. All soldiers bear the symbol of [[House Solmara]] on their chest and their duchie's symbol somewhere else. As part of the royal army of Thrane, soldiers are trimmed in gold and have no other duchy symbols.
 

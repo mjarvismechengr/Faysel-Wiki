@@ -33,7 +33,7 @@ He remembers little of his mother, [[Gwen]], beyond her smile and a sense of war
 
 They spent long evenings crafting small inventions meant to make life easier or simply more amusing. Self-stirring spoons. Automatic striking stones. Pop-up shelters cobbled together from scrap and cleverness. Glick showed him that there was magic beyond spells, a quiet wonder in shaping the world with tools and intention. He taught Rex that invention was a form of hope.
 
-During these travels, Rex befriended a young dwarf named [[Bigsby Firebrand]], the son of a fellow miner. The two shared a fascination with mechanisms and stonework, but the road eventually carried them apart. Rex has not seen Bigsby since.
+During these travels, Rex befriended a young dwarf named [[Bigsby Firebrand]], the son of a fellow miner, [[Durn Firebrand]]. The two shared a fascination with mechanisms and stonework, but the road eventually carried them apart. Rex has not seen Bigsby since.
 
 Rex grew up listening to stories of ancient ages when technology and magic were intertwined, when inventors reshaped the world before it fell into its current state. Glick spoke often of legendary figures, none more vivid than [[Grebambit Bafflebob|Greg the Creator]], whose enchanted tools could coax life from inanimate things. These tales took root in Rex’s mind. He did not turn to temples for meaning. He looked backward, searching the past for ideas worth carrying forward.
 

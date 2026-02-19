@@ -11,6 +11,7 @@ title: Relics of Sundering
 - [[Magic Items\Relics of Sundering/King's Blessing|King's Blessing]]
 - [[Magic Items\Relics of Sundering/Melody's Muse|Melody's Muse]]
 - [[Magic Items\Relics of Sundering/Morning Glory|Morning Glory]]
+- [[Magic Items\Relics of Sundering/Relics of Sundering|Relics of Sundering]]
 - [[Magic Items\Relics of Sundering/Sanguine Fury|Sanguine Fury]]
 - [[Magic Items\Relics of Sundering/Soulrender|Soulrender]]
 - [[Magic Items\Relics of Sundering/Staff of the World Tree|Staff of the World Tree]]

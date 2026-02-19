@@ -25,6 +25,7 @@ title: Areas
 - [[Areas/Sky Razor Range|Sky Razor Range]]
 - [[Areas/Sunrise Cliffs|Sunrise Cliffs]]
 - [[Areas/Thrymholt Glacier|Thrymholt Glacier]]
+- [[Areas/Trollskog Forest|Trollskog Forest]]
 - [[Areas/Veirn River|Veirn River]]
 - [[Areas/West Marsh|West Marsh]]
 - [[Areas/Wolftrap Woods|Wolftrap Woods]]

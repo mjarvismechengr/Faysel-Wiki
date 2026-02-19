@@ -20,4 +20,6 @@ title: Faysel Player Wiki
 - [[Parties/index|Parties]]
 - [[Planes/index|Planes]]
 - [[Planets/index|Planets]]
+- [[Points of Interest/index|Points of Interest]]
+- [[Settlements/index|Settlements]]
 - [[Vehicles/index|Vehicles]]

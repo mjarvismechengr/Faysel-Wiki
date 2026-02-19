@@ -31,7 +31,7 @@ Thrane’s strength lies not only in its disciplined armies or vast bureaucracy 
 
 Thranish culture is defined by law, honor, and feudal hierarchy, a structured society that prizes discipline and loyalty above all. Nobles and commoners alike are raised to believe that peace and prosperity flow from order, not chaos; from law, not liberty.
 
-The [[Church of Cyrus]] sits at the moral center of this order. Oaths, contracts, marriages, and even military commissions are sworn upon [[Cyrus]]’ name. A broken oath is not only a legal offense but a spiritual stain.
+The [[Church of the Regal Guardian]] sits at the moral center of this order. Oaths, contracts, marriages, and even military commissions are sworn upon [[Cyrus]]’ name. A broken oath is not only a legal offense but a spiritual stain.
 
 ### Core Tenets
 

@@ -19,7 +19,7 @@ type: quest
 
 ## Overview
 
-For generations, [[Widow's Light]] stood watch over Oldport, believed by some to be more than a lighthouse. Members of [[The Tideborn Pact]] held that its beacon functioned as a ward, a binding mechanism meant to hold something ancient and malignant beneath the marsh and sea.
+For generations, [[Widow's Light]] stood watch over Oldport, believed by some to be more than a lighthouse. Some longtime families of [[Oldport]] held that its beacon functioned as a ward, a binding mechanism meant to hold something ancient and malignant beneath the marsh and sea.
 
 In the days leading up to the party’s arrival, the lighthouse’s light began to falter. Its keeper, [[Jonas Greaves]], grew erratic and withdrawn, and fishermen reported strange disturbances offshore during moments when the beacon dimmed. Rumors spread that something beneath Oldport was stirring.
 
