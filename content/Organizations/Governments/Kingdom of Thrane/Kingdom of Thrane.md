@@ -115,7 +115,7 @@ The feudal lattice is underpinned by the Convocation of Crowns, a royal council 
 |**Dukes / Duchesses**|- [[Herenya Bewne]]<br/>- [[Wilhelm Clayburt]]<br/>- [[Scarlett Stoutbrow]]<br/>- [[Haldran Thastor]]<br/>- [[Stenwulf Vael]]|Rulers of Valorden, Dolm, Stonehearth, Stillhold, and Vaelwyth. Each represents their duchy’s interests.|
 |**Lord Marshal of the Realm**|[[Ivo Larvor]]|Oversees the kingdom’s combined armies; typically drawn from the nobility.|
 |**High Chancellor of the Kingdom**|[[Elfilda Hincmar]]|Head of royal bureaucracy, taxes, law codification, and recordkeeping.|
-|**Archbishop of Cyrus**|[[Ilyra Venn]]|Spiritual authority ensuring all decisions align with divine law.|
+|**Archbishop of Cyrus**|[[Ilyra Venn]]|Spiritual authority ensuring all decisions align with divine law of the [[Church of the Regal Guardian]].|
 |Other Common Invitees|---|---|
 |**[[Candelabra]] liason - Archmage of Diplomatic Union**|[[Aphior Ostoroth]]|Invited as an arcane advisor, especially things concerning [[Chasmkeep]].|
 

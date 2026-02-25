@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Sky Razor Range</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Sky Razor Range">
+<img class="infobox-image" src="/z_Assets/Areas/Sky Razor Range.png" alt="Sky Razor Range">
 
 |  |  |
 |---|---|

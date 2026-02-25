@@ -120,13 +120,13 @@ Magic Items/Relics of Sundering/King's Blessing.md
 Magic Items/Relics of Sundering/Melody's Muse.md
 Magic Items/Relics of Sundering/Morning Glory.md
 Magic Items/Relics of Sundering/Relics of Sundering.md
+Magic Items/Relics of Sundering/Ruby Rod.md
 Magic Items/Relics of Sundering/Sanguine Fury.md
 Magic Items/Relics of Sundering/Soulrender.md
 Magic Items/Relics of Sundering/Staff of the World Tree.md
 Magic Items/Relics of Sundering/Swift Justice.md
-Magic Items/Relics of Sundering/The Ruby Rod.md
-Magic Items/Relics of Sundering/The Warden's Take.md
 Magic Items/Relics of Sundering/Unkhati.md
+Magic Items/Relics of Sundering/Warden's Take.md
 Magic Items/Relics of Sundering/Worldshaper.md
 Magic Items/Shackles of Supremacy.md
 Mechanics/Minigames/Card Games/Griffon's Wall.md
@@ -221,9 +221,48 @@ Planes/Outer Planes/Abyss.md
 Planes/Outer Planes/Nine Hells of Baator.md
 Planets/Castor's Eye.md
 Planets/Faysel.md
+Points of Interest/Abbey Isle.md
+Points of Interest/Alchemist's House.md
+Points of Interest/Andy's.md
+Points of Interest/Bardock's Awakening Site.md
+Points of Interest/Boat-Breaker Keep.md
+Points of Interest/Carpenters’ Guildhall (Seabrook).md
+Points of Interest/Council Hall (Seabrook).md
+Points of Interest/Dotrice's Home.md
+Points of Interest/Eliander's House.md
+Points of Interest/Empty Net.md
+Points of Interest/Endwatch Tower.md
+Points of Interest/Fishmonger (Seabrook).md
+Points of Interest/Ingo's House.md
+Points of Interest/Keledek Tower.md
+Points of Interest/Kester's Leather Goods.md
+Points of Interest/Lucian's Cabin.md
+Points of Interest/Magic Patch.md
+Points of Interest/Mariners' Guildhall (Seabrook).md
+Points of Interest/Moonfall Masks.md
+Points of Interest/Mt. Storm King.md
+Points of Interest/Oldport’s Sinking Catacombs.md
+Points of Interest/Oweland House.md
+Points of Interest/Party Location.md
+Points of Interest/Primewater Mansion.md
 Points of Interest/Tin Tunnels Mine.md
+Points of Interest/Tin Tunnels Mining Office (Seabrook).md
 Settlements/Arvidsjaur.md
+Settlements/Bromjinar.md
+Settlements/Grenevik.md
+Settlements/Independence.md
+Settlements/Inzai.md
+Settlements/Kalakoayan.md
+Settlements/Liberty.md
+Settlements/Meliard.md
+Settlements/Mokodoya.md
+Settlements/Oldport.md
+Settlements/Palindrar.md
+Settlements/Seabrook.md
+Settlements/Titan.md
 Settlements/Twilight Glade.md
+Settlements/Winskey.md
+Settlements/Zizhok.md
 Vehicles/Soul of Winter.md
 Vehicles/The Sea Ghost.md
 Vehicles/The Typhoon.md

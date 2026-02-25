@@ -3,8 +3,8 @@ type: magicitem
 ---
 
 <div class="infobox">
-<div class="infobox-title">The Warden's Take</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="The Warden's Take">
+<div class="infobox-title">Warden's Take</div>
+<img class="infobox-image" src="/z_Assets/Items/Warden's Take.png" alt="Warden's Take">
 
 |  |  |
 |---|---|

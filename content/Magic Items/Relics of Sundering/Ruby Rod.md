@@ -3,8 +3,8 @@ type: magicitem
 ---
 
 <div class="infobox">
-<div class="infobox-title">The Ruby Rod</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="The Ruby Rod">
+<div class="infobox-title">Ruby Rod</div>
+<img class="infobox-image" src="/z_Assets/Items/Ruby Rod.png" alt="Ruby Rod">
 
 |  |  |
 |---|---|

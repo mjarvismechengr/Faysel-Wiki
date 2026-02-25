@@ -4,7 +4,7 @@ type: settlement
 
 <div class="infobox">
 <div class="infobox-title">Twilight Glade</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Twilight Glade">
+<img class="infobox-image" src="/z_Assets/Settlements/Twilight Glade.png" alt="Twilight Glade">
 
 |  |  |
 |---|---|

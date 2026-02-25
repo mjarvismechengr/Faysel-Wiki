@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Gold Grass Prairie</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Gold Grass Prairie">
+<img class="infobox-image" src="/z_Assets/Areas/Goldgrass Prairie.png" alt="Gold Grass Prairie">
 
 |  |  |
 |---|---|

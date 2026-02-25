@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Worldshaper</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Worldshaper">
+<img class="infobox-image" src="/z_Assets/Items/Worldshaper.png" alt="Worldshaper">
 
 |  |  |
 |---|---|

@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Goldwood</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Goldwood">
+<img class="infobox-image" src="/z_Assets/Areas/Goldwood.png" alt="Goldwood">
 
 |  |  |
 |---|---|

@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Morning Glory</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Morning Glory">
+<img class="infobox-image" src="/z_Assets/Items/Morning Glory.png" alt="Morning Glory">
 
 |  |  |
 |---|---|

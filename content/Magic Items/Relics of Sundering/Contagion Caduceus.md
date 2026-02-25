@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Contagion Caduceus</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Contagion Caduceus">
+<img class="infobox-image" src="/z_Assets/Items/Contagion Caduceus.png" alt="Contagion Caduceus">
 
 |  |  |
 |---|---|

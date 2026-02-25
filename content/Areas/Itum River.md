@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Itum River</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Itum River">
+<img class="infobox-image" src="/z_Assets/Areas/Itum River.png" alt="Itum River">
 
 |  |  |
 |---|---|

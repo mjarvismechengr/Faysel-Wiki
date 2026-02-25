@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Morphesium</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Morphesium">
+<img class="infobox-image" src="/z_Assets/Items/Morphe.png" alt="Morphesium">
 
 |  |  |
 |---|---|

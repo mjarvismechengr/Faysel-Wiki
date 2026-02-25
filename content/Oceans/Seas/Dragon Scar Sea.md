@@ -4,7 +4,7 @@ type: ocean
 
 <div class="infobox">
 <div class="infobox-title">Dragon Scar Sea</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Dragon Scar Sea">
+<img class="infobox-image" src="/z_Assets/Geography/Dragon Scar Sea.png" alt="Dragon Scar Sea">
 
 |  |  |
 |---|---|

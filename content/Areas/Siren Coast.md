@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Siren Coast</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Siren Coast">
+<img class="infobox-image" src="/z_Assets/Areas/Siren Coast.png" alt="Siren Coast">
 
 |  |  |
 |---|---|

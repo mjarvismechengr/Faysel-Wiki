@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Maru Desert</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Maru Desert">
+<img class="infobox-image" src="/z_Assets/Areas/Maru Desert.png" alt="Maru Desert">
 
 |  |  |
 |---|---|

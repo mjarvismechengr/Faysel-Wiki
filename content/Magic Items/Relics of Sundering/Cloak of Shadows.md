@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Cloak of Shadows</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Cloak of Shadows">
+<img class="infobox-image" src="/z_Assets/Items/Cloak of Shadows.png" alt="Cloak of Shadows">
 
 |  |  |
 |---|---|

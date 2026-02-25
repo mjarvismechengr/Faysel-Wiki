@@ -21,5 +21,5 @@ type: organization
 
 ## Overview
 
-The Rukhaal are a loose collective of clans in the [[Endor Forest]] hell-bent on spreading the raw, untamed force of nature. They do not seek to rule the wilds — they _are_ the wilds. Their attacks on settlements, caravans, and roads are motivated by contemptuous rage and the belief that civilization is a wound upon the world. Their unity is sporadic and seasonal, held together only by respect for strength and the call of [[Gorhaag]], a mythic archdruid.
+The Rukhaal are a loose collective of clans in the [[Endor Forest]] hell-bent on spreading the raw, untamed force of nature. They do not seek to rule the wilds, they _are_ the wilds. Their attacks on settlements, caravans, and roads are motivated by contemptuous rage and the belief that civilization is a wound upon the world. Their unity is sporadic and seasonal, held together only by respect for strength and the call of [[Gorhaag]], a mythic archdruid.
 

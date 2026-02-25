@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Itzapantli River</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Itzapantli River">
+<img class="infobox-image" src="/z_Assets/Areas/Itzapantli River.png" alt="Itzapantli River">
 
 |  |  |
 |---|---|

@@ -9,7 +9,7 @@ type: settlement
 |  |  |
 |---|---|
 | **Bio** |  |
-| **Pronounced** | AR-veeds-jow-ur |
+| **Pronounced** | AR-vid-sour |
 | **Connections** |  |
 | **Dominion** | "[[Dramsfjord Enclave]]" |
 | **Location** | "[[Dramsvol Fjord]]" |

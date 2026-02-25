@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Crescent Crook</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Crescent Crook">
+<img class="infobox-image" src="/z_Assets/Items/Crescent Crook.png" alt="Crescent Crook">
 
 |  |  |
 |---|---|

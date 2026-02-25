@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Jvarro Jungle</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Jvarro Jungle">
+<img class="infobox-image" src="/z_Assets/Areas/Jvarro Jungle.png" alt="Jvarro Jungle">
 
 |  |  |
 |---|---|

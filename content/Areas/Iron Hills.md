@@ -4,7 +4,7 @@ type: area
 
 <div class="infobox">
 <div class="infobox-title">Iron Hills</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Iron Hills">
+<img class="infobox-image" src="/z_Assets/Areas/Iron Hills.png" alt="Iron Hills">
 
 |  |  |
 |---|---|

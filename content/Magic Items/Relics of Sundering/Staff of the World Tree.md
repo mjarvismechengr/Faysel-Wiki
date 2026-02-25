@@ -4,7 +4,7 @@ type: magicitem
 
 <div class="infobox">
 <div class="infobox-title">Staff of the World Tree</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Staff of the World Tree">
+<img class="infobox-image" src="/z_Assets/Items/Staff of the World Tree.png" alt="Staff of the World Tree">
 
 |  |  |
 |---|---|
