@@ -1,4 +1,5 @@
 ﻿Areas/Brannach River.md
+Areas/Chinoshima Isle.md
 Areas/Dramsvol Fjord.md
 Areas/Eldhollow River.md
 Areas/Endor Forest.md
@@ -225,8 +226,10 @@ Points of Interest/Abbey Isle.md
 Points of Interest/Alchemist's House.md
 Points of Interest/Andy's.md
 Points of Interest/Bardock's Awakening Site.md
+Points of Interest/Bloodlust Arena.md
 Points of Interest/Boat-Breaker Keep.md
 Points of Interest/Carpenters’ Guildhall (Seabrook).md
+Points of Interest/Chasmkeep.md
 Points of Interest/Council Hall (Seabrook).md
 Points of Interest/Dotrice's Home.md
 Points of Interest/Eliander's House.md
@@ -237,16 +240,40 @@ Points of Interest/Ingo's House.md
 Points of Interest/Keledek Tower.md
 Points of Interest/Kester's Leather Goods.md
 Points of Interest/Lucian's Cabin.md
+Points of Interest/Luminara Spire.md
 Points of Interest/Magic Patch.md
 Points of Interest/Mariners' Guildhall (Seabrook).md
 Points of Interest/Moonfall Masks.md
+Points of Interest/Mt. Mertari.md
 Points of Interest/Mt. Storm King.md
 Points of Interest/Oldport’s Sinking Catacombs.md
 Points of Interest/Oweland House.md
 Points of Interest/Party Location.md
 Points of Interest/Primewater Mansion.md
+Points of Interest/Ruins of Mirskwa.md
+Points of Interest/Salty Seaman.md
+Points of Interest/Sea Grove of Rambak.md
+Points of Interest/Seabrook Cemetery.md
+Points of Interest/Seabrook Jail and Barracks.md
+Points of Interest/Seabrook Market.md
+Points of Interest/Sharkfin Bridge.md
+Points of Interest/Shattercrest Colossus.md
+Points of Interest/Shepherd's Highway.md
+Points of Interest/Solmor House.md
+Points of Interest/Standing Stones (Seabrook).md
+Points of Interest/Stone Bridge.md
+Points of Interest/Temple of Iskandar (Seabrook).md
+Points of Interest/Temporary Trade Space (Seabrook).md
+Points of Interest/The Dwarven Anvil.md
+Points of Interest/The Leap.md
+Points of Interest/The Silver Lantern Inn.md
+Points of Interest/The Snapping Line.md
+Points of Interest/The Wicker Goat.md
 Points of Interest/Tin Tunnels Mine.md
 Points of Interest/Tin Tunnels Mining Office (Seabrook).md
+Points of Interest/Wakening Courtyard.md
+Points of Interest/Widow's Light.md
+Points of Interest/Winston's Store.md
 Settlements/Arvidsjaur.md
 Settlements/Bromjinar.md
 Settlements/Grenevik.md

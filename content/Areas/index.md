@@ -5,6 +5,7 @@ title: Areas
 # Areas
 
 - [[Areas/Brannach River|Brannach River]]
+- [[Areas/Chinoshima Isle|Chinoshima Isle]]
 - [[Areas/Dramsvol Fjord|Dramsvol Fjord]]
 - [[Areas/Eldhollow River|Eldhollow River]]
 - [[Areas/Endor Forest|Endor Forest]]
