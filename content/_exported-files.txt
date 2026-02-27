@@ -133,6 +133,7 @@ Magic Items/Shackles of Supremacy.md
 Mechanics/Minigames/Card Games/Griffon's Wall.md
 Mechanics/Minigames/Dice Games/Dice Hydras.md
 Mechanics/Minigames/Other/Goblin's Eye.md
+NPCs/Anders Solmor.md
 NPCs/Manistrad Copperlocks.md
 NPCs/Unknown/Everard Wallace.md
 NPCs/Unknown/Herenya Bewne.md
