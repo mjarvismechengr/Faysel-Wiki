@@ -3,13 +3,13 @@ type: vehicle
 ---
 
 <div class="infobox">
-<div class="infobox-title">The Typhoon</div>
-<img class="infobox-image" src="/z_Assets/Items/The Typhoon.png" alt="The Typhoon">
+<div class="infobox-title">Typhoon</div>
+<img class="infobox-image" src="/z_Assets/Items/The Typhoon.png" alt="Typhoon">
 
 |  |  |
 |---|---|
 | **Bio** |  |
-| **Aliases** | Typhoon |
+| **Aliases** | [] |
 | **Connections** |  |
 | **Other** |  |
 
@@ -18,7 +18,7 @@ type: vehicle
 
 ## Overview
 
-[[The Typhoon]] is one of the [[Relics of Sundering]], the personal vessel of [[Iskandar]]. It was said to carry him across seas and skies alike, unconstrained by wind, wave, or horizon.
+[[Typhoon]] is one of the [[Relics of Sundering]], the personal vessel of [[Iskandar]]. It was said to carry him across seas and skies alike, unconstrained by wind, wave, or horizon.
 
 Accounts of the Typhoon are famously inconsistent. Some tales describe it as a towering warship crowned with lightning and black sails. Others claim it was no larger than a fishing boat, humble in form but impossible to catch.
 

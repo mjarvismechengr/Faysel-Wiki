@@ -29,7 +29,7 @@ type: player
 
 Arthur was born in [[Zizhok]], a hard place that bred harder people. His childhood ended early. One night, his parents were killed in a brutal and senseless act, the details spoken only in whispers and fragments. Arthur rarely speaks of it, but the memory never left him.
 
-He and his younger brother, [[Eric Mourhan]], were taken in by their uncle and aunt, [[William Kane]] and [[Jane Kane]]. William was a master hunter, a man who understood the land as something to be read rather than conquered. Under his guidance, Arthur learned patience, tracking, and restraint. Hunting became more than survival. It was clarity. In the quiet stretches of the [[Padrich Woods]], Arthur found a sense of order that the rest of the world denied him.
+He and his younger brother, [[Eric Mourhan]], were taken in by their uncle and aunt, [[William Mourhan]] and [[Jane Mourhan]]. William was a master hunter, a man who understood the land as something to be read rather than conquered. Under his guidance, Arthur learned patience, tracking, and restraint. Hunting became more than survival. It was clarity. In the quiet stretches of the [[Padrich Woods]], Arthur found a sense of order that the rest of the world denied him.
 
 ---
 

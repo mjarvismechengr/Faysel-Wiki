@@ -3,13 +3,13 @@ type: vehicle
 ---
 
 <div class="infobox">
-<div class="infobox-title">The Sea Ghost</div>
-<img class="infobox-image" src="/z_Assets/Items/Sea Ghost.png" alt="The Sea Ghost">
+<div class="infobox-title">Sea Ghost</div>
+<img class="infobox-image" src="/z_Assets/Items/Sea Ghost.png" alt="Sea Ghost">
 
 |  |  |
 |---|---|
 | **Bio** |  |
-| **Aliases** | Sea Ghost |
+| **Aliases** | [] |
 | **Connections** |  |
 | **Other** |  |
 

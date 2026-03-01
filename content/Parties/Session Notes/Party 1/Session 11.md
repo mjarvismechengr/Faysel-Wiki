@@ -10,7 +10,7 @@ type: session
 | **Bio** |  |
 | **Aliases** | Exploring Seabrook |
 | **Connections** |  |
-| **Locations** | "[[Campaign/Oceans/Seas/Siren Sea.md|Siren Sea]]", "[[Campaign/Settlements/Seabrook.md|Seabrook]]", "[[Campaign/Points of Interest/Kester's Leather Goods.md|Kester's Leather Goods]]", "[[Campaign/Points of Interest/Keledek Tower.md|Keledek Tower]]", "[[Campaign/Points of Interest/Winston's Store.md|Winston's Store]]", "[[Campaign/Points of Interest/The Wicker Goat.md|The Wicker Goat]]", "[[Campaign/Points of Interest/Eliander's House.md|Eliander's House]]", "[[Campaign/Points of Interest/Council Hall (Seabrook).md|Council Hall (Seabrook)]]", "[[Campaign/Points of Interest/Mariners' Guildhall (Seabrook).md|Mariners' Guildhall (Seabrook)]]", "[[Campaign/Points of Interest/Tin Tunnels Mining Office (Seabrook).md|Tin Tunnels Mining Office (Seabrook)]]", "[[Campaign/Points of Interest/Sharkfin Bridge.md|Sharkfin Bridge]]" |
+| **Locations** | "[[Campaign/Oceans/Seas/Siren Sea.md|Siren Sea]]", "[[Campaign/Settlements/Seabrook.md|Seabrook]]", "[[Campaign/Points of Interest/Kester's Leather Goods.md|Kester's Leather Goods]]", "[[Campaign/Points of Interest/Keledek Tower.md|Keledek Tower]]", "[[Campaign/Points of Interest/Winston's Store.md|Winston's Store]]", "[[Campaign/Points of Interest/The Wicker Goat.md|The Wicker Goat]]", "[[Campaign/Points of Interest/Eliander's House.md|Eliander's House]]", "[[Campaign/Points of Interest/Council Hall (Seabrook).md|Council Hall (Seabrook)]]", "[[Campaign/Points of Interest/Mariners' Guildhall (Seabrook).md|Mariners' Guildhall (Seabrook)]]", "[[Tin Tunnels Mining Office|Tin Tunnels Mining Office]]", "[[Campaign/Points of Interest/Sharkfin Bridge.md|Sharkfin Bridge]]" |
 | **Other** |  |
 | **Sessiondate** | 11/01/2025 |
 
@@ -23,7 +23,7 @@ Date: 29th - 31st of [[Iskel]]
 
 | Scenes | Details |
 | ---- | ---- |
-| [[The Sea Ghost]] | Convinced [[Captain Sigurd]] and the crew of finding the cultists dead, gave them a map through the dunes, and made their way back to [[Seabrook]]. Paid them with a gold bar. |
+| [[Sea Ghost]] | Convinced [[Captain Sigurd]] and the crew of finding the cultists dead, gave them a map through the dunes, and made their way back to [[Seabrook]]. Paid them with a gold bar. |
 | [[Alchemist's House]] | Talked with [[Sanbalet]] about the job. He gave his thanks and offered the party future work. [[Isle of the Abbey]] |
 | [[Drallion Mansion]] | [[Vertheg]] let's Milkmen know he's staying on to see the house returned to its former glory. He asks the party what they require, and he'll acquire it. |
 | [[Kester's Leather Goods]] | [[Kiorna Kester]] buys pelts and crafts things from them. Told party about a [[Manticore Near the Mine]]. |

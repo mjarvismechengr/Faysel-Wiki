@@ -4,6 +4,6 @@ title: Vehicles
 
 # Vehicles
 
+- [[Vehicles/Sea Ghost|Sea Ghost]]
 - [[Vehicles/Soul of Winter|Soul of Winter]]
-- [[Vehicles/The Sea Ghost|The Sea Ghost]]
-- [[Vehicles/The Typhoon|The Typhoon]]
+- [[Vehicles/Typhoon|Typhoon]]

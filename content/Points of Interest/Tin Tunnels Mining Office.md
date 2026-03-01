@@ -3,8 +3,8 @@ type: poi
 ---
 
 <div class="infobox">
-<div class="infobox-title">Tin Tunnels Mining Office (Seabrook)</div>
-<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Tin Tunnels Mining Office (Seabrook)">
+<div class="infobox-title">Tin Tunnels Mining Office</div>
+<img class="infobox-image" src="/z_Assets/Misc/PlaceholderImage.png" alt="Tin Tunnels Mining Office">
 
 |  |  |
 |---|---|

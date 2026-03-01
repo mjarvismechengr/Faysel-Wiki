@@ -52,7 +52,7 @@ title: Points of Interest
 - [[Points of Interest/The Snapping Line|The Snapping Line]]
 - [[Points of Interest/The Wicker Goat|The Wicker Goat]]
 - [[Points of Interest/Tin Tunnels Mine|Tin Tunnels Mine]]
-- [[Points of Interest/Tin Tunnels Mining Office (Seabrook)|Tin Tunnels Mining Office (Seabrook)]]
+- [[Points of Interest/Tin Tunnels Mining Office|Tin Tunnels Mining Office]]
 - [[Points of Interest/Wakening Courtyard|Wakening Courtyard]]
 - [[Points of Interest/Widow's Light|Widow's Light]]
 - [[Points of Interest/Winston's Store|Winston's Store]]

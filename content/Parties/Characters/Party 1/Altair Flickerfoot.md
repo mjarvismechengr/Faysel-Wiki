@@ -36,7 +36,7 @@ Despite the glade’s serenity, Altair often felt divided. The enclave’s moder
 
 Everything changed during a twilight meditation beneath a cloudless sky. The stars shifted and aligned, forming the silhouette of Seabrook’s coastal cliffs wrapped in dusk. The vision carried certainty rather than explanation. Something awaited there, a celestial relic bound to the balance between light and shadow.
 
-Altair took this as a calling. Leaving the Twilight Glade, they began a pilgrimage toward Seabrook, offering healing and guidance along the roads and watching the night sky for further signs. Upon arrival, whispers of an abandoned alchemist’s house reached them. Stories spoke of hidden wealth, hauntings, and lingering darkness. Altair recognized the place immediately as the destination shown in the stars.
+Altair took this as a calling. Leaving the Twilight Glade, despite disapproval from [[Elric Shadowbark]], he began a pilgrimage toward Seabrook, offering healing and guidance along the roads and watching the night sky for further signs. Upon arrival, whispers of an abandoned alchemist’s house reached them. Stories spoke of hidden wealth, hauntings, and lingering darkness. Altair recognized the place immediately as the destination shown in the stars.
 
 While investigating the house, Altair encountered smugglers moving enchanted contraband. Fascinated by the unnatural glow of their crates, Altair lingered too long. The smugglers seized them, either mistaking them for a spy or unwilling to risk a witness. Altair was imprisoned in the house’s basement, left alone in darkness and silence.
 

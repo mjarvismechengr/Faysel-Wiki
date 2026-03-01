@@ -134,11 +134,30 @@ Mechanics/Minigames/Card Games/Griffon's Wall.md
 Mechanics/Minigames/Dice Games/Dice Hydras.md
 Mechanics/Minigames/Other/Goblin's Eye.md
 NPCs/Anders Solmor.md
+NPCs/Aubreck Drallion.md
+NPCs/Bayleaf.md
+NPCs/Beckett.md
+NPCs/Bigsby Firebrand.md
+NPCs/Bloody Bjorn.md
+NPCs/Bronn Stonefist.md
+NPCs/Bulak Tanck.md
+NPCs/Caldus Vayne.md
+NPCs/Calyn Flickerfoot.md
+NPCs/Cosham.md
+NPCs/Cynthliria.md
+NPCs/Darius Brinehand.md
+NPCs/Decimus Ogmarr.md
+NPCs/Durn Firebrand.md
+NPCs/Eda Oweland.md
+NPCs/Eliander Fireborn.md
+NPCs/Elric Shadowbark.md
+NPCs/Endrar.md
+NPCs/Eric Mourhan.md
+NPCs/Everard Wallace.md
+NPCs/Herenya Bewne.md
 NPCs/Manistrad Copperlocks.md
-NPCs/Unknown/Everard Wallace.md
-NPCs/Unknown/Herenya Bewne.md
-NPCs/Unknown/Mirelle Rotryett.md
-NPCs/Unknown/Stenwulf Vael.md
+NPCs/Mirelle Rotryett.md
+NPCs/Stenwulf Vael.md
 Oceans/Mangchida Ocean.md
 Oceans/Nagaru Ocean.md
 Oceans/Seas/Blood Sea.md
@@ -151,19 +170,19 @@ Oceans/Stormwind Ocean.md
 Oceans/Tiber Ocean.md
 Organizations/Criminal/Sanbalet's Gang.md
 Organizations/Families/Hallwinter Family.md
-Organizations/Governments/Dimaheim Horde/Dimaheim Horde.md
-Organizations/Governments/Dimaheim Horde/Dramsfjord Enclave.md
-Organizations/Governments/Kingdom of Thrane/House Bewne/House Bewne.md
-Organizations/Governments/Kingdom of Thrane/House Solmara.md
-Organizations/Governments/Kingdom of Thrane/House Vael/House Rotryett.md
-Organizations/Governments/Kingdom of Thrane/House Vael/House Vael.md
-Organizations/Governments/Kingdom of Thrane/House Vael/House Wallace.md
-Organizations/Governments/Kingdom of Thrane/Kingdom of Thrane.md
-Organizations/Governments/Shimazu Shogunate/Clan Sakai.md
-Organizations/Governments/Shimazu Shogunate/Clan Takeda.md
-Organizations/Governments/Shimazu Shogunate/Shimazu Shogunate.md
-Organizations/Governments/Unclaimed Territory/Seabrook Town Council.md
-Organizations/Governments/Unclaimed Territory/Twilight Enclave.md
+Organizations/Government/Dimaheim Horde/Dimaheim Horde.md
+Organizations/Government/Dimaheim Horde/Dramsfjord Enclave.md
+Organizations/Government/Kingdom of Thrane/House Bewne/House Bewne.md
+Organizations/Government/Kingdom of Thrane/House Solmara.md
+Organizations/Government/Kingdom of Thrane/House Vael/House Rotryett.md
+Organizations/Government/Kingdom of Thrane/House Vael/House Vael.md
+Organizations/Government/Kingdom of Thrane/House Vael/House Wallace.md
+Organizations/Government/Kingdom of Thrane/Kingdom of Thrane.md
+Organizations/Government/Shimazu Shogunate/Clan Sakai.md
+Organizations/Government/Shimazu Shogunate/Clan Takeda.md
+Organizations/Government/Shimazu Shogunate/Shimazu Shogunate.md
+Organizations/Government/Unclaimed Territory/Seabrook Town Council.md
+Organizations/Government/Unclaimed Territory/Twilight Enclave.md
 Organizations/Military/Order of Saint Kyren.md
 Organizations/Military/Rukhaal.md
 Organizations/Professional/Candelabra.md
@@ -271,7 +290,7 @@ Points of Interest/The Silver Lantern Inn.md
 Points of Interest/The Snapping Line.md
 Points of Interest/The Wicker Goat.md
 Points of Interest/Tin Tunnels Mine.md
-Points of Interest/Tin Tunnels Mining Office (Seabrook).md
+Points of Interest/Tin Tunnels Mining Office.md
 Points of Interest/Wakening Courtyard.md
 Points of Interest/Widow's Light.md
 Points of Interest/Winston's Store.md
@@ -291,6 +310,6 @@ Settlements/Titan.md
 Settlements/Twilight Glade.md
 Settlements/Winskey.md
 Settlements/Zizhok.md
+Vehicles/Sea Ghost.md
 Vehicles/Soul of Winter.md
-Vehicles/The Sea Ghost.md
-Vehicles/The Typhoon.md
+Vehicles/Typhoon.md
