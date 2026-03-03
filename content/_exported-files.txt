@@ -100,6 +100,7 @@ Lore/Rumours/Resolved/Alchemist's House is Haunted.md
 Lore/Rumours/Resolved/Island worshippers need supplies.md
 Lore/Rumours/Resolved/Manticore Near the Mine.md
 Lore/Rumours/Seabrook Evening Patrol.md
+Lore/Rumours/Strange Sickness Killing Travelers.md
 Lore/Rumours/Tragedy in the Mines.md
 Magic Items/Morphesium.md
 Magic Items/Quoridon Party/Blue Steel.md
@@ -256,6 +257,7 @@ Points of Interest/Eliander's House.md
 Points of Interest/Empty Net.md
 Points of Interest/Endwatch Tower.md
 Points of Interest/Fishmonger (Seabrook).md
+Points of Interest/Glass Lake.md
 Points of Interest/Ingo's House.md
 Points of Interest/Keledek Tower.md
 Points of Interest/Kester's Leather Goods.md

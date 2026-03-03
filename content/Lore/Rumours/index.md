@@ -8,4 +8,5 @@ title: Rumours
 - [[Lore\Rumours/Greg's Magical Tools|Greg's Magical Tools]]
 - [[Lore\Rumours/Raiders in Winskey|Raiders in Winskey]]
 - [[Lore\Rumours/Seabrook Evening Patrol|Seabrook Evening Patrol]]
+- [[Lore\Rumours/Strange Sickness Killing Travelers|Strange Sickness Killing Travelers]]
 - [[Lore\Rumours/Tragedy in the Mines|Tragedy in the Mines]]

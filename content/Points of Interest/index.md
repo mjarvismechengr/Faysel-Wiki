@@ -18,6 +18,7 @@ title: Points of Interest
 - [[Points of Interest/Empty Net|Empty Net]]
 - [[Points of Interest/Endwatch Tower|Endwatch Tower]]
 - [[Points of Interest/Fishmonger (Seabrook)|Fishmonger (Seabrook)]]
+- [[Points of Interest/Glass Lake|Glass Lake]]
 - [[Points of Interest/Ingo's House|Ingo's House]]
 - [[Points of Interest/Keledek Tower|Keledek Tower]]
 - [[Points of Interest/Kester's Leather Goods|Kester's Leather Goods]]
