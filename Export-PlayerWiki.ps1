@@ -210,7 +210,7 @@ function Build-MapSectionMarkdown {
   $geoUrls = @()
   foreach ($gj in $a.GeoJsonRefs) {
     $gjRel = Resolve-AssetRelPath -AssetRef $gj -AssetIndex $AssetIndex
-    if ($gjRel) { $geoUrls += "/$gjRel" }
+    if ($gjRel) { $geoUrls += "$gjRel" }
   }
   $geoJsonArray = ($geoUrls | ConvertTo-Json -Compress)
 
@@ -226,7 +226,7 @@ function Build-MapSectionMarkdown {
   $lines.Add("<summary>Map</summary>")
   $lines.Add("")
   $lines.Add("<div class=`"leaflet-map`" style=`"height: $heightCss; margin-top: 0.75rem;`" " +
-             "data-image=`"/$imgRel`" " +
+             "data-image=`"$imgRel`" " +
              "data-bounds=`"$boundsJson`" " +
              "data-minzoom=`"$($a.MinZoom)`" " +
              "data-maxzoom=`"$($a.MaxZoom)`" " +
@@ -238,7 +238,7 @@ function Build-MapSectionMarkdown {
   $lines.Add("")
   $lines.Add("<noscript>")
   $lines.Add("<p><em>Interactive map requires JavaScript. Here is the static map image:</em></p>")
-  $lines.Add("![](/$imgRel)")
+  $lines.Add("![]($imgRel)")
   $lines.Add("</noscript>")
   $lines.Add("")
   $lines.Add("</details>")
@@ -1047,12 +1047,11 @@ if ($CleanOrphanAssets) {
 
 
 Write-Host "Export complete: $(Get-Date)"
-
 # SIG # Begin signature block
 # MIIb7AYJKoZIhvcNAQcCoIIb3TCCG9kCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUTQ9wMp9+2FjS1Q1kJnPDX25Q
-# OF+gghZUMIIDFjCCAf6gAwIBAgIQcPphZdBOpIhOhIcru1JmKTANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUTZV2/ziAT3SUlekfu9MTYzfG
+# fzCgghZUMIIDFjCCAf6gAwIBAgIQcPphZdBOpIhOhIcru1JmKTANBgkqhkiG9w0B
 # AQsFADAjMSEwHwYDVQQDDBhMb2NhbCBQb3dlclNoZWxsIFNjcmlwdHMwHhcNMjYw
 # MTI4MjA1OTQyWhcNMjcwMTI4MjExOTQyWjAjMSEwHwYDVQQDDBhMb2NhbCBQb3dl
 # clNoZWxsIFNjcmlwdHMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDi
@@ -1174,28 +1173,28 @@ Write-Host "Export complete: $(Get-Date)"
 # NXOCIUjsarfNZzGCBQIwggT+AgEBMDcwIzEhMB8GA1UEAwwYTG9jYWwgUG93ZXJT
 # aGVsbCBTY3JpcHRzAhBw+mFl0E6kiE6Ehyu7UmYpMAkGBSsOAwIaBQCgeDAYBgor
 # BgEEAYI3AgEMMQowCKACgAChAoAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEE
-# MBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBSX
-# 2vnsSVrnL0/iULAZq8IweFdtgjANBgkqhkiG9w0BAQEFAASCAQBzPh/w7nwTOIMs
-# v/j6zlboRzRoo0G2XosujBpatQsjBKNqQqDpFOzUak5qXHu0RfNY7Ys9cIOm5G0J
-# mO6ig9Tud4eCFZltz/3DUvJzpgS2bWqCxzPJ5KRtuZELyuxjQklyj3G+1+m6nerv
-# XQdXUs4EiM9hpLbENuXpnnxNCG2tqFrdfbkELu1GOJDt10lxkaQo3blXmog/yN1J
-# R/tsbHvXg8PkqcWRQ0a1mWF19aExLPWZ2kpmQQmfQL907+bxr4kRhYTctct5w+CU
-# CAaDg80S8ISOrOBf+3m/u+WErN6wrrVyL4jjZu8j6aRaRkLJz1eiJQLAR7gsK4m4
-# 4fvfj88woYIDJjCCAyIGCSqGSIb3DQEJBjGCAxMwggMPAgEBMH0waTELMAkGA1UE
+# MBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBTz
+# svKJz38EjNmAPo3p8tqGtADstzANBgkqhkiG9w0BAQEFAASCAQAoCh0w43jB65cW
+# 1YimJ+Zsf3qnZaSCuktYFmQuuC+Adc5pYvGOulhkSLPQMcpmi/qseuHiYqfjjIRI
+# IASEK/LCzG8NTqKRwu0tZfGN0lvYQvgGUdMBp+3gv6J9wfoaX+EWlHUXWYgy/Lhl
+# +lRPUE5Pw0Y602SkU+CRzp4s3Sv1dOH+VSZQ6zSLKoTwmPTNKeJktf7RlZVSpRUO
+# Ax7/ECGTGo5eubpuBAncU++IbLC6oeNzAJ/9tmByFpgViGnmkTckUwbXEQgb2VNP
+# aeKdSiMi79JdzmbjoCy5aHNI5RX5M4T+VhZboAuknh5eBh6XRq0acsu3jHGQ9XR3
+# bmValtBooYIDJjCCAyIGCSqGSIb3DQEJBjGCAxMwggMPAgEBMH0waTELMAkGA1UE
 # BhMCVVMxFzAVBgNVBAoTDkRpZ2lDZXJ0LCBJbmMuMUEwPwYDVQQDEzhEaWdpQ2Vy
 # dCBUcnVzdGVkIEc0IFRpbWVTdGFtcGluZyBSU0E0MDk2IFNIQTI1NiAyMDI1IENB
 # MQIQCoDvGEuN8QWC0cR2p5V0aDANBglghkgBZQMEAgEFAKBpMBgGCSqGSIb3DQEJ
-# AzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI2MDMwMzE4MzAyMlowLwYJ
-# KoZIhvcNAQkEMSIEILh3npY4Cyl6HUIgeSQubXb353p3NKc27PKECoSdpBykMA0G
-# CSqGSIb3DQEBAQUABIICAJxWDfBGPnUdD7dgKc+iosAswKjgcO9VMrQilqMb7ZuV
-# fE6n78/VTsYqjUNyECCh8f8IDARKFRj5mzrbSPjcrAgNq8yb5xzSuG9M9wkiwdQo
-# 6wVaN/EVrynKHyCbqvl0FqLTPtaQmNF3eSmT/0UNMLmybSj5rE/4UrWUaso78dUE
-# Bqt7tfVZSH6c6zCUR1duiWzB2IiQwNEG0LRReG8HNk7GUUin06PbAyi3GF0zclcw
-# 6R7x/5I9mHCeAz4bxryk1jt2XsO6jcIitfsHubgtQFPMCuCsMK3K9rH2yxTlV2OW
-# i34LAIWvargRzJ8AlhsI/aAG21IpWGsexC2NFDUxI9Enx2FjammR8KpEzEr04So/
-# ndpUVlHYpeIs4QHeluFZmSXG5dYxV1yslb29ie0aKi5YxcL8+d8olvb4A5wrZNPz
-# 3nwcqyhm4w3JkKzownpZGAMzAqoqnRE7cRdSUgSWzW/ac0SbmpLIcOdCHT7/9m3P
-# gP6TRp4LKl+ZWhGjOVjDig90XG4J9Ug00rgj4rfi0Zqq1mCsTaBAQx/KlhU7iJHb
-# XP7N/BzS/cXH8x9jvJmWzCK7xOMob6HjdG5jIoH7qA2u1JJxQz25dZsnadzJ0DSO
-# JBkiZkpP0K0pngeLh66PWACNXWHwda9cJQ4RvyQFpqAHO3CqmHwpaDPo5sWklndP
+# AzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI2MDMwMzE4NDcwOVowLwYJ
+# KoZIhvcNAQkEMSIEIO/wubet2oW2S9Fw+CeTVmnJ26Sk9Bg7oVjSKZ4ezuEEMA0G
+# CSqGSIb3DQEBAQUABIICAB+0fxpWNO8gHBlRQ9WJM+Vs2u+Z3CJJpiL4zTN9d/tS
+# zcGuGfRWMMHd+tnvP5bM9gxs8Crb5Xybh1vlj8iVyjpdUkobdU/0243BIGJgPpZz
+# OvA5hDpwB6NSU2evmSfwgWo9cbt2pMtNiYeXw3etuk3zuC9x/hB5g4etTrCb/7dq
+# lGKEi5QfebuR8xlaadBYuPb5+G2u3TvIC6s7PXDGsH3MdbdMZUJYPdr7N95xez4Y
+# ODy+Umj6lbcXuliyk9QpWSHANI+K1X7UPJMVrJecCGu3C5ZtGUiqJ4sVlOJ4VTaZ
+# 8G4ttrCZ40WNFOOkXNgTm0mqYuGDqsI2hdiwJb0dF5Sym36M7cG1xo7C0vLrlO9F
+# b/CNfZ9YATP+EyUtjQcmQjvJBiiMqPSOxOb73V+htl3mV4sLQL6e/6UOoUZ59izE
+# 8UXiW/AwxAt1XPLrVt5zbAgRM2namE0OTkTOSXIDcZBIauy2mnTnB6BQajfHOzQ7
+# CkNzTSPIGPkPBc5AgTKDCrq+80/bm/MiudUSOGG7iFFZflXmrqPbGBhx26TJwTqd
+# uYfDVaakp6KTlE/PzJrPAfVwR2ljdeKa7sTTOTBEH+vmVmHh/Yz5UIP15j/hbaZs
+# 9ZeemvT7kFku6GZyK7OYNJ24tKla2txWaK6ZvQuMnu71Q9mK4t1ks2k0hjNXsQ/V
 # SIG # End signature block
