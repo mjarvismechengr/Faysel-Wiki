@@ -129,24 +129,54 @@ function Parse-LeafletAssets {
   )
 
   $result = [ordered]@{
-    ImageRef = $null
-    GeoJsonRefs = @()
+    ImageRef     = $null
+    GeoJsonRefs  = @()
+    Bounds       = $null
+    MinZoom      = $null
+    MaxZoom      = $null
+    DefaultZoom  = $null
+    Lat          = $null
+    Long         = $null
+    Height       = $null
   }
 
   if (-not $LeafletBody) { return $result }
 
+  $inGeoJson = $false
+
   foreach ($line in ($LeafletBody -split "`r?`n")) {
     $t = $line.Trim()
 
-    if ($t -match '^(?i)image:\s*(.+)$') {
-      $result.ImageRef = $Matches[1].Trim()
+    if ($t -eq "") {
+      # blank line ends geojson list block
+      $inGeoJson = $false
       continue
     }
 
-    # geojson list items: "- [[file.json]]"
-    if ($t -match '^(?i)-\s*(\[\[.*?\]\])\s*$') {
+    if ($t -match '^(?i)image:\s*(.+)$') { $result.ImageRef = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)bounds:\s*(.+)$') { $result.Bounds = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)minZoom:\s*(.+)$') { $result.MinZoom = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)maxZoom:\s*(.+)$') { $result.MaxZoom = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)defaultZoom:\s*(.+)$') { $result.DefaultZoom = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)lat:\s*(.+)$') { $result.Lat = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)long:\s*(.+)$') { $result.Long = $Matches[1].Trim(); continue }
+    if ($t -match '^(?i)height:\s*(.+)$') { $result.Height = $Matches[1].Trim(); continue }
+
+    # Turn on "geojson mode"
+    if ($t -match '^(?i)geojson:\s*$') {
+      $inGeoJson = $true
+      continue
+    }
+
+    # Only read list items while we're inside geojson:
+    if ($inGeoJson -and ($t -match '^(?i)-\s*(\[\[.*?\]\])\s*$')) {
       $result.GeoJsonRefs += $Matches[1].Trim()
       continue
+    }
+
+    # Any other non-list line ends geojson mode
+    if ($inGeoJson -and ($t -notmatch '^(?i)-\s*')) {
+      $inGeoJson = $false
     }
   }
 
@@ -164,32 +194,55 @@ function Build-MapSectionMarkdown {
 
   $a = Parse-LeafletAssets -LeafletBody $leaflet
 
-  # If we can't find an image, there's nothing useful to render for players.
   if (-not $a.ImageRef) { return $null }
 
   $imgRel = Resolve-AssetRelPath -AssetRef $a.ImageRef -AssetIndex $AssetIndex
   if (-not $imgRel) { return $null }
 
+  # Bounds must exist for interactive map
+  if (-not $a.Bounds) { return $null }
+
+  # Normalize bounds text so it becomes valid JSON
+  # Example: [[0,0], [1914.11, 1764.30]] -> [[0,0],[1914.11,1764.30]]
+  $boundsJson = ($a.Bounds -replace '\s+', '') -replace '^\[', '['
+
+  # GeoJSON URLs (resolved)
+  $geoUrls = @()
+  foreach ($gj in $a.GeoJsonRefs) {
+    $gjRel = Resolve-AssetRelPath -AssetRef $gj -AssetIndex $AssetIndex
+    if ($gjRel) { $geoUrls += "/$gjRel" }
+  }
+  $geoJsonArray = ($geoUrls | ConvertTo-Json -Compress)
+
+  # Height (optional)
+  $heightCss = "600px"
+  if ($a.Height -match '(\d+)') { $heightCss = "$($Matches[1])px" }
+
+  # Build collapsible HTML
   $lines = New-Object System.Collections.Generic.List[string]
   $lines.Add("## Map")
   $lines.Add("")
-  $lines.Add("![](/$imgRel)")
+  $lines.Add("<details open>")
+  $lines.Add("<summary>Map</summary>")
   $lines.Add("")
-
-  if ($a.GeoJsonRefs.Count -gt 0) {
-    $lines.Add("### Layers")
-    $lines.Add("")
-    foreach ($gj in $a.GeoJsonRefs) {
-      $gjRel = Resolve-AssetRelPath -AssetRef $gj -AssetIndex $AssetIndex
-      if ($gjRel) {
-        $name = [System.IO.Path]::GetFileName($gjRel)
-        $lines.Add("- [$name](/$gjRel)")
-      }
-    }
-    $lines.Add("")
-    $lines.Add("> Note: This site exports the map image and GeoJSON layers for reference. Interactive Leaflet toggles require a Quartz plugin (optional future step).")
-    $lines.Add("")
-  }
+  $lines.Add("<div class=`"leaflet-map`" style=`"height: $heightCss; margin-top: 0.75rem;`" " +
+             "data-image=`"/$imgRel`" " +
+             "data-bounds=`"$boundsJson`" " +
+             "data-minzoom=`"$($a.MinZoom)`" " +
+             "data-maxzoom=`"$($a.MaxZoom)`" " +
+             "data-defaultzoom=`"$($a.DefaultZoom)`" " +
+             "data-lat=`"$($a.Lat)`" " +
+             "data-long=`"$($a.Long)`" " +
+             "data-geojson=`'$geoJsonArray`" " +
+             "></div>")
+  $lines.Add("")
+  $lines.Add("<noscript>")
+  $lines.Add("<p><em>Interactive map requires JavaScript. Here is the static map image:</em></p>")
+  $lines.Add("![](/$imgRel)")
+  $lines.Add("</noscript>")
+  $lines.Add("")
+  $lines.Add("</details>")
+  $lines.Add("")
 
   return ($lines -join "`n")
 }
@@ -994,11 +1047,12 @@ if ($CleanOrphanAssets) {
 
 
 Write-Host "Export complete: $(Get-Date)"
+
 # SIG # Begin signature block
 # MIIb7AYJKoZIhvcNAQcCoIIb3TCCG9kCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUf/k/E9z4a5giAOJ1s9RUAo5A
-# 1L6gghZUMIIDFjCCAf6gAwIBAgIQcPphZdBOpIhOhIcru1JmKTANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUTQ9wMp9+2FjS1Q1kJnPDX25Q
+# OF+gghZUMIIDFjCCAf6gAwIBAgIQcPphZdBOpIhOhIcru1JmKTANBgkqhkiG9w0B
 # AQsFADAjMSEwHwYDVQQDDBhMb2NhbCBQb3dlclNoZWxsIFNjcmlwdHMwHhcNMjYw
 # MTI4MjA1OTQyWhcNMjcwMTI4MjExOTQyWjAjMSEwHwYDVQQDDBhMb2NhbCBQb3dl
 # clNoZWxsIFNjcmlwdHMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDi
@@ -1120,28 +1174,28 @@ Write-Host "Export complete: $(Get-Date)"
 # NXOCIUjsarfNZzGCBQIwggT+AgEBMDcwIzEhMB8GA1UEAwwYTG9jYWwgUG93ZXJT
 # aGVsbCBTY3JpcHRzAhBw+mFl0E6kiE6Ehyu7UmYpMAkGBSsOAwIaBQCgeDAYBgor
 # BgEEAYI3AgEMMQowCKACgAChAoAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEE
-# MBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBQj
-# h54JRyhlmSoM26/JNowp19KFYDANBgkqhkiG9w0BAQEFAASCAQCADepCmycDoEFb
-# aMn7akG6d+LEGz6SimrirqScMjzXVBl8QbZ9wV1Q0IFenHzM9ur/iKIU3A7muyJo
-# kqCvZQrlbjWLcNAK0rSW9FZvGvFvu9JXBW7LkS7+bdTY7kUSg11PZG9d8HgDi30i
-# CCVeqwDXEE1tqoG29TGUWljtDbLBUQIih67Xakgt/YY2mPGqhksGnJYr9iUj3JgX
-# VNg/yFjv9uIqemgCAqOzczvq8DaSUudQgEuiqxZvP/xWJOTmwoMe3o9lI9wZNTfs
-# se2EV8gcecrXUsnwRbI9M2GP0VVe1Jx1gQWE65Ay/9HmRTjDh8dNNqmAsUE3XWR5
-# KNCQzXdgoYIDJjCCAyIGCSqGSIb3DQEJBjGCAxMwggMPAgEBMH0waTELMAkGA1UE
+# MBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBSX
+# 2vnsSVrnL0/iULAZq8IweFdtgjANBgkqhkiG9w0BAQEFAASCAQBzPh/w7nwTOIMs
+# v/j6zlboRzRoo0G2XosujBpatQsjBKNqQqDpFOzUak5qXHu0RfNY7Ys9cIOm5G0J
+# mO6ig9Tud4eCFZltz/3DUvJzpgS2bWqCxzPJ5KRtuZELyuxjQklyj3G+1+m6nerv
+# XQdXUs4EiM9hpLbENuXpnnxNCG2tqFrdfbkELu1GOJDt10lxkaQo3blXmog/yN1J
+# R/tsbHvXg8PkqcWRQ0a1mWF19aExLPWZ2kpmQQmfQL907+bxr4kRhYTctct5w+CU
+# CAaDg80S8ISOrOBf+3m/u+WErN6wrrVyL4jjZu8j6aRaRkLJz1eiJQLAR7gsK4m4
+# 4fvfj88woYIDJjCCAyIGCSqGSIb3DQEJBjGCAxMwggMPAgEBMH0waTELMAkGA1UE
 # BhMCVVMxFzAVBgNVBAoTDkRpZ2lDZXJ0LCBJbmMuMUEwPwYDVQQDEzhEaWdpQ2Vy
 # dCBUcnVzdGVkIEc0IFRpbWVTdGFtcGluZyBSU0E0MDk2IFNIQTI1NiAyMDI1IENB
 # MQIQCoDvGEuN8QWC0cR2p5V0aDANBglghkgBZQMEAgEFAKBpMBgGCSqGSIb3DQEJ
-# AzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI2MDMwMzE3MzEzOVowLwYJ
-# KoZIhvcNAQkEMSIEIP2DXy6wIfFgeao/j89TORnzwkj2ILeggXTcFw5ieGDKMA0G
-# CSqGSIb3DQEBAQUABIICAF4nEXEO3F/x6tIFEN0UG4qqQ/L2i21ogpC6K4+a3X2G
-# PwK9fGR48nLpfxkkkbBBUGeQQY2v5K5Q8WQ/Nzxuc2NQrOeh0G0TdToByqirM+gL
-# Drc4KPSJl4nWnMUwasZaUZlD6llDlM0ldKodR7nQheRKGxJc2doYQknWa6S+SPqQ
-# DAAj3CDHN98oaPzc9Q1+KafAgtPVEV8WL9hPQKHjEzYqmi8jQXM8nSfyfKwCNIRh
-# QY80XHZDUU9W09knvsUby65qUilFLXGSUc74Z7VbdbqC3867dU6Vp5jqd9vUOCK0
-# IDGeWL83QbAmkZRHhtzAX5lyS65OgPOxhiND5acKdsrBt/FU7+ETW4qPU6crRoqb
-# jNj1Ngj8ynm/pOLD9zluq51C8OeqUnAuO7HNdlh+1Z485fdwXx0WRwE8ntFZ/hLN
-# /jRqsTcrD8O2hTiyUdum+2XGDH1k3eKA9ngKhFXnPull2ga2WbTv0lderc6CVExK
-# MoGs9oiZYTgoptAgnuGKo0HQEAXO/Rqr0DRZlvsxyWHfhcR+AfvYdUsQ3TdStkB/
-# 5TFcRmV/X6HDDw7gv/QPsF05Vmu4SNWD/W3RfCVfAv4+O0wv81n+331SVAy/fBQs
-# AvKdBkJGorw6SskA80zbcZ/ObMMVc+cs6hV7BYK7eRrN6fiOW/5i4BT9fXCVUmZM
+# AzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI2MDMwMzE4MzAyMlowLwYJ
+# KoZIhvcNAQkEMSIEILh3npY4Cyl6HUIgeSQubXb353p3NKc27PKECoSdpBykMA0G
+# CSqGSIb3DQEBAQUABIICAJxWDfBGPnUdD7dgKc+iosAswKjgcO9VMrQilqMb7ZuV
+# fE6n78/VTsYqjUNyECCh8f8IDARKFRj5mzrbSPjcrAgNq8yb5xzSuG9M9wkiwdQo
+# 6wVaN/EVrynKHyCbqvl0FqLTPtaQmNF3eSmT/0UNMLmybSj5rE/4UrWUaso78dUE
+# Bqt7tfVZSH6c6zCUR1duiWzB2IiQwNEG0LRReG8HNk7GUUin06PbAyi3GF0zclcw
+# 6R7x/5I9mHCeAz4bxryk1jt2XsO6jcIitfsHubgtQFPMCuCsMK3K9rH2yxTlV2OW
+# i34LAIWvargRzJ8AlhsI/aAG21IpWGsexC2NFDUxI9Enx2FjammR8KpEzEr04So/
+# ndpUVlHYpeIs4QHeluFZmSXG5dYxV1yslb29ie0aKi5YxcL8+d8olvb4A5wrZNPz
+# 3nwcqyhm4w3JkKzownpZGAMzAqoqnRE7cRdSUgSWzW/ac0SbmpLIcOdCHT7/9m3P
+# gP6TRp4LKl+ZWhGjOVjDig90XG4J9Ug00rgj4rfi0Zqq1mCsTaBAQx/KlhU7iJHb
+# XP7N/BzS/cXH8x9jvJmWzCK7xOMob6HjdG5jIoH7qA2u1JJxQz25dZsnadzJ0DSO
+# JBkiZkpP0K0pngeLh66PWACNXWHwda9cJQ4RvyQFpqAHO3CqmHwpaDPo5sWklndP
 # SIG # End signature block

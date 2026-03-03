@@ -25,6 +25,10 @@ const config: QuartzConfig = {
           src: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
           defer: true,
         },
+        { 
+          src: "static/leaflet-maps.js", 
+          defer: true 
+        },
       ],
     },
 
