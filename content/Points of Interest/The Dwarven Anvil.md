@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Assistant** | "[[Jasker]]" |
 | **Location** | "[[South Seabrook]]" |
+| **Owner** | "[[Mafera]]" |
 | **Other** |  |
 
 </div>

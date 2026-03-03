@@ -16,6 +16,7 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 
 </div>

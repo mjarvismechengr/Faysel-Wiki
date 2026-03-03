@@ -13,6 +13,7 @@ type: poi
 | **Connections** |  |
 | **Assistant** | "[[Loz]]" |
 | **Location** | "[[Bromjinar]]" |
+| **Owner** | "[[Pop]]" |
 | **Other** |  |
 
 </div>

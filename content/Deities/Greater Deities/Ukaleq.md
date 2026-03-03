@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Emperor of Bone |
 | **Pronounced** | OO-cuh-lek |
 | **Connections** |  |
+| **Organization** | "[[Marigold Imperium]]" |
 | **Other** |  |
 | **Domain** | Death, The Dead, The Afterlife |
 

@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Location** | "[[South Seabrook]]" |
 | **Organization** | "[[Mariners' Guild]]" |
+| **Owner** | "[[Riona Vex]]" |
 | **Other** |  |
 | **Assistant** | [] |
 

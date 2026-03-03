@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[Bromjinar]]" |
+| **Owner** | "[[Topal Boat-Breaker]]" |
 | **Other** |  |
 
 </div>

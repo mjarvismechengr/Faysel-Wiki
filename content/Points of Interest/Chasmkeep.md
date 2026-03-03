@@ -12,6 +12,7 @@ type: poi
 | **Dominion** | "[[Kingdom of Thrane]]" |
 | **Location** | "[[Liberty]]" |
 | **Organization** | "[[Candelabra]]" |
+| **Owner** | "[[Kadmos Onasis]]" |
 | **Other** |  |
 
 </div>

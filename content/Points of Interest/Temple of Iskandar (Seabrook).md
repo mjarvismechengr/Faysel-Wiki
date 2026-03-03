@@ -12,6 +12,7 @@ type: poi
 | **Dominion** | "[[Brotherhood of the Crashing Wave]]" |
 | **Location** | "[[Old Seabrook]]" |
 | **Organization** | "[[Brotherhood of the Crashing Wave]]" |
+| **Owner** | "[[Darius Brinehand]]" |
 | **Other** |  |
 
 </div>

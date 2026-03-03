@@ -9,6 +9,8 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Creator** | "[[Yupa]]" |
+| **Previousowner** | "[[Yupa]]" |
 | **Other** |  |
 
 </div>

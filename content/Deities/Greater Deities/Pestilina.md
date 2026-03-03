@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Plague Maiden, Mistress of Poison |
 | **Pronounced** | pest-ill-EENA |
 | **Connections** |  |
+| **Organization** | "[[Creed of Blight and Balm]]" |
 | **Other** |  |
 | **Domain** | Affliction, Poison (Alchemy), Plagues, Medicine, Healing, Famine, Vermin, Snakes |
 

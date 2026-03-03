@@ -12,6 +12,22 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
+
+    head: {
+      links: [
+        {
+          rel: "stylesheet",
+          href: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+        },
+      ],
+      scripts: [
+        {
+          src: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+          defer: true,
+        },
+      ],
+    },
+
     analytics: {
       provider: "plausible",
     },

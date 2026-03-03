@@ -18,6 +18,7 @@ type: player
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Adventurer |
 | **Other** |  |
 | **Playedby** | Carver |
 | **Weight** | 320 lb |

@@ -13,6 +13,7 @@ type: poi
 | **Location** | "[[South Seabrook]]" |
 | **Other** |  |
 | **Dominion** | [] |
+| **Owner** | [] |
 
 </div>
 

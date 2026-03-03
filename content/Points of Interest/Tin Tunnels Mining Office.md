@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Location** | "[[Old Seabrook]]" |
 | **Organization** | "[[Tin Tunnels Mining Co.]]" |
+| **Owner** | "[[Manistrad Copperlocks]]" |
 | **Other** |  |
 
 </div>

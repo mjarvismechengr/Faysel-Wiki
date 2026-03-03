@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Assistant** | "[[Garkuhm]]" |
 | **Location** | [] |
+| **Owner** | "[[Patches]]" |
 | **Other** |  |
 
 </div>

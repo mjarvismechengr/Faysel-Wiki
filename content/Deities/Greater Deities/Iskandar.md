@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Tempest King, Storm Lord |
 | **Pronounced** | isk-AHN-dar |
 | **Connections** |  |
+| **Organization** | "[[Brotherhood of the Crashing Wave]]" |
 | **Other** |  |
 | **Domain** | Sky, Sea (water), Storms, Mystery, The lost, The Forgotten, Fury |
 

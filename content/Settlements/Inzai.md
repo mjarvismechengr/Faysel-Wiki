@@ -13,8 +13,11 @@ type: settlement
 | **Connections** |  |
 | **Dominion** | "[[Shimazu Shogunate Heirarchy]]", "[[Clan Shimazu]]" |
 | **Location** | "[[Yoseju]]" |
+| **Ruler** | "[[Tadanori Shimazu]]" |
 | **Other** |  |
+| **Defence** | Formidable |
 | **Governmenttype** | Feudalism, Dictatorship |
+| **Import** | [] |
 | **Population** | 519,447 |
 | **Terrain** | Coastline, River, Forest, Hills, Plains |
 

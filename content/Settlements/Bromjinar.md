@@ -12,8 +12,12 @@ type: settlement
 | **Pronounced** | BRAHM-jin-ar |
 | **Connections** |  |
 | **Location** | "[[Endor Forest]]", "[[Siren Coast]]" |
+| **Ruler** | "[[Topal Boat-Breaker]]" |
 | **Other** |  |
+| **Defence** | Pathetic |
+| **Export** | Fish, Timber, Furs |
 | **Governmenttype** | Dictatorship |
+| **Import** | Steel, Livestock, Precious Metals |
 | **Population** | "982" |
 | **Terrain** | Forest, Coastline |
 

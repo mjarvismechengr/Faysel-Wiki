@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Threefold Sun, Everflame |
 | **Pronounced** | so-LAR-uh |
 | **Connections** |  |
+| **Organization** | "[[Order of the Threefold Sun]]" |
 | **Other** |  |
 | **Domain** | The Sun, Fire, Light, Warmth, Boldness |
 

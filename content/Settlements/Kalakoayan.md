@@ -13,6 +13,7 @@ type: settlement
 | **Connections** |  |
 | **Location** | "[[Aequitorra]]" |
 | **Other** |  |
+| **Defence** | Weak |
 | **Population** | 10,771 |
 | **Terrain** | Coastline, Jungle |
 

@@ -9,6 +9,7 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Previousowner** | "[[Thalia]]" |
 | **Other** |  |
 
 </div>

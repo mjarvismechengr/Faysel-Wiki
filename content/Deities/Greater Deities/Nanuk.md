@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Beast Lord |
 | **Pronounced** | NAW-nuke |
 | **Connections** |  |
+| **Organization** | "[[Circle of the Hunt]]" |
 | **Other** |  |
 | **Domain** | The Hunt, Animals, Survival |
 

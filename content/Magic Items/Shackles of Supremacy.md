@@ -9,6 +9,7 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Previousowner** | "[[Og'riq]]" |
 | **Other** |  |
 
 </div>

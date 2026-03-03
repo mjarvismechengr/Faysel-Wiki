@@ -18,6 +18,9 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Council Member |
+| **Organization** | "[[Dramsfjord Enclave]]" |
+| **Religion** | "[[Bloodbound Legion]]" |
 | **Other** |  |
 
 </div>

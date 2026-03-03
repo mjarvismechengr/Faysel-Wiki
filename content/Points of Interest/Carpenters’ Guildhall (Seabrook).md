@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Location** | "[[South Seabrook]]" |
 | **Organization** | "[[Carpenters' Guild]]" |
+| **Owner** | "[[Jilar Kankelsten]]" |
 | **Other** |  |
 
 </div>

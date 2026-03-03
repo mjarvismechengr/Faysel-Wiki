@@ -9,6 +9,7 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Previousowner** | "[[Xalzotec]]" |
 | **Other** |  |
 
 </div>

@@ -223,17 +223,19 @@ Parties/Quests/Party 1/Nest of the Undying Eye.md
 Parties/Quests/Party 1/Salvage Operation.md
 Parties/Quests/Party 1/Sinister Secret of Seabrook.md
 Parties/Quests/Party 1/The Thing Beneath.md
-Parties/Session Notes/Party 1/Session 1.md
+Parties/Session Notes/Party 1/Session 01.md
+Parties/Session Notes/Party 1/Session 02.md
+Parties/Session Notes/Party 1/Session 03.md
+Parties/Session Notes/Party 1/Session 04.md
+Parties/Session Notes/Party 1/Session 05.md
+Parties/Session Notes/Party 1/Session 06.md
+Parties/Session Notes/Party 1/Session 07.md
+Parties/Session Notes/Party 1/Session 08.md
+Parties/Session Notes/Party 1/Session 09.md
 Parties/Session Notes/Party 1/Session 10.md
 Parties/Session Notes/Party 1/Session 11.md
 Parties/Session Notes/Party 1/Session 12.md
-Parties/Session Notes/Party 1/Session 2.md
-Parties/Session Notes/Party 1/Session 3.md
-Parties/Session Notes/Party 1/Session 4.md
-Parties/Session Notes/Party 1/Session 5.md
-Parties/Session Notes/Party 1/Session 7.md
-Parties/Session Notes/Party 1/Session 8.md
-Parties/Session Notes/Party 1/Session 9.md
+Parties/Session Notes/Party 1/Session 13.md
 Planes/Astral Sea.md
 Planes/Inner Planes/Elemental Planes.md
 Planes/Inner Planes/Feywild.md

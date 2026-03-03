@@ -17,6 +17,7 @@ type: player
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Adventurer, Entertainer |
 | **Other** |  |
 | **Playedby** | Cody |
 | **Weight** | 185 (lb) |

@@ -10,6 +10,7 @@ type: geography
 |---|---|
 | **Connections** |  |
 | **Location** | "[[Faysel]]" |
+| **Organization** | "[[Kingdom of Esjiq]]" |
 | **Other** |  |
 | **Terrain** | Mountains, Jungle, Savannah, Desert, Forest, Continent |
 

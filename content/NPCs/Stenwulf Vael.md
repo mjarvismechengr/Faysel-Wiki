@@ -18,6 +18,9 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Duke / Duchess, Noble |
+| **Organization** | "[[House Vael]]", "[[Kingdom of Thrane]]" |
+| **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 
 </div>

@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Regal Guardian, Vow Keeper |
 | **Pronounced** | S-EYE-rus |
 | **Connections** |  |
+| **Organization** | "[[Church of the Regal Guardian]]" |
 | **Other** |  |
 | **Domain** | Law, Justice, Order, Peace, Honor, Oaths / Promises, Leadership |
 

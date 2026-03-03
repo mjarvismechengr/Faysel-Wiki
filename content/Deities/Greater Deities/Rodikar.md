@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Blood Saint |
 | **Pronounced** | ROW-di-car |
 | **Connections** |  |
+| **Organization** | "[[Bloodbound Legion]]" |
 | **Other** |  |
 | **Domain** | Combat, War, Competition, Victory, Conquest, Blood |
 

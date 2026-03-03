@@ -14,6 +14,7 @@ type: deity
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Organization** | "[[Covenant of the Turning Wheel]]" |
 | **Other** |  |
 | **Domain** | Time (Seasons, Change), Earth, Harvest (agriculture / domestication), Fertility, Fate / Destiny |
 

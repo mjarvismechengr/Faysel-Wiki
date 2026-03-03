@@ -3,7 +3,7 @@ type: session
 ---
 
 <div class="infobox">
-<div class="infobox-title">Session 9</div>
+<div class="infobox-title">Session 09</div>
 
 |  |  |
 |---|---|

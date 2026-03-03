@@ -11,6 +11,7 @@ type: magicitem
 | **Bio** |  |
 | **Aliases** | Predator Bow |
 | **Connections** |  |
+| **Previousowner** | "[[Nanuk]]" |
 | **Other** |  |
 
 </div>

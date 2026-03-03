@@ -9,6 +9,7 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Previousowner** | "[[Hank Watson]]" |
 | **Other** |  |
 
 </div>

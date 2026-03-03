@@ -18,6 +18,7 @@ type: player
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Adventurer |
 | **Other** |  |
 | **Playedby** | Griff |
 | **Weight** | 245 (lb) |

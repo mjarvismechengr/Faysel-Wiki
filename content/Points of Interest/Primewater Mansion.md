@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[South Seabrook]]" |
+| **Owner** | "[[Gellan Primewater]]" |
 | **Other** |  |
 
 </div>

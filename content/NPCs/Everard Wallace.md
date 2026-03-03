@@ -17,6 +17,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Count / Countess, Noble |
+| **Organization** | "[[House Wallace]]", "[[Kingdom of Thrane]]" |
 | **Other** |  |
 
 </div>

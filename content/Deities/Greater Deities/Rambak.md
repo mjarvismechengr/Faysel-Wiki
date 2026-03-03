@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Oakfather |
 | **Pronounced** | ROM-bok |
 | **Connections** |  |
+| **Organization** | "[[Greenheart Kin]]" |
 | **Other** |  |
 | **Domain** | Plants, The Wild, The World Tree, Kinship |
 

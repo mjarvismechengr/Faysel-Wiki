@@ -18,6 +18,9 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Adventurer, Mercenary |
+| **Organization** | "[[Gilded Compass]]", "[[Order of Saint Kyren]]" |
+| **Religion** | "[[Church of the Regal Guardian]]" |
 | **Other** |  |
 
 </div>

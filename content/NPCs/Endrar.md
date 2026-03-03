@@ -17,6 +17,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Political Advisor |
+| **Religion** | "[[Order of the Threefold Sun]]" |
 | **Other** |  |
 
 </div>

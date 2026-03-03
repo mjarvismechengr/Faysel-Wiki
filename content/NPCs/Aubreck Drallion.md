@@ -18,6 +18,7 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Merchant |
 | **Other** |  |
 
 </div>

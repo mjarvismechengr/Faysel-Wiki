@@ -19,6 +19,7 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Gladiator |
 | **Other** |  |
 
 </div>

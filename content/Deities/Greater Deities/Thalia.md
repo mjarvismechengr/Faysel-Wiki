@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Merry Maiden |
 | **Pronounced** | TALL-ee-uh |
 | **Connections** |  |
+| **Organization** | "[[Revelers of the Merry Maiden]]" |
 | **Other** |  |
 | **Domain** | Revelry, Art, Music, Culture, Beauty, Passion, Luck, Storytelling, Lust, Poetry, Pranks |
 

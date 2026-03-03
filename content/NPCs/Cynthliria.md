@@ -18,6 +18,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Healer |
+| **Religion** | "[[Order of the Threefold Sun]]" |
 | **Other** |  |
 
 </div>

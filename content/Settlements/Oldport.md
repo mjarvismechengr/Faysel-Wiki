@@ -12,6 +12,7 @@ type: settlement
 | **Dominion** | "[[Kingdom of Thrane]]" |
 | **Location** | "[[West Marsh]]", "[[Siren Coast]]" |
 | **Other** |  |
+| **Defence** | Strong |
 | **Governmenttype** | Feudalism |
 | **Population** | 15,048 |
 | **Terrain** | Marsh, Coastline, Swamp |

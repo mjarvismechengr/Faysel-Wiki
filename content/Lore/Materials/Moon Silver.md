@@ -9,6 +9,7 @@ type: material
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Location** | "[[Castor's Eye]]" |
 | **Other** |  |
 
 </div>

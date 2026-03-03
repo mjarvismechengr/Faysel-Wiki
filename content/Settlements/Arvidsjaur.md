@@ -12,8 +12,12 @@ type: settlement
 | **Pronounced** | AR-vid-sour |
 | **Connections** |  |
 | **Dominion** | "[[Dramsfjord Enclave]]" |
+| **Leader** | "[[Ghorza Kuisma]]", "[[Bulak Tanck]]", "[[Olga Kokko]]" |
 | **Location** | "[[Dramsvol Fjord]]" |
+| **Organization** | [] |
+| **Ruler** | "[[Ghorza Kuisma]]" |
 | **Other** |  |
+| **Defence** | None |
 | **Governmenttype** | Martiarchy |
 | **Population** | "87" |
 | **Terrain** | Fjord |

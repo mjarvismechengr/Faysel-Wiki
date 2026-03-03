@@ -18,6 +18,8 @@ type: player
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Gladiator, Adventurer |
+| **Organization** | "[[Dramsfjord Enclave]]" |
 | **Other** |  |
 | **Playedby** | Gavin |
 

@@ -17,6 +17,9 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Count / Countess, Noble |
+| **Organization** | "[[House Rotryett]]", "[[Kingdom of Thrane]]" |
+| **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 
 </div>

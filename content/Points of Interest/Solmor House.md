@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[South Seabrook]]" |
+| **Owner** | "[[Anders Solmor]]" |
 | **Other** |  |
 
 </div>

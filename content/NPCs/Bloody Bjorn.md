@@ -16,6 +16,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Smuggler, Sailor |
+| **Organization** | "[[Sanbalet's Gang]]" |
 | **Other** |  |
 
 </div>

@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[Endor Forest]]" |
+| **Owner** | "[[Lucian]]" |
 | **Other** |  |
 
 </div>

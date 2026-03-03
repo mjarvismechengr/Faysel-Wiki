@@ -12,6 +12,7 @@ type: settlement
 | **Dominion** | "[[Kingdom of Thrane]]" |
 | **Location** | "[[Endor Forest]]", "[[Eldhollow River]]" |
 | **Other** |  |
+| **Defence** | Strong |
 | **Population** | 82,466 |
 | **Terrain** | Forest, River, Hills |
 

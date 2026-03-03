@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[Old Seabrook]]" |
+| **Owner** | "[[Kraddok Stonehorn]]" |
 | **Other** |  |
 
 </div>

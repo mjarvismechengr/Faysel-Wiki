@@ -11,8 +11,12 @@ type: settlement
 | **Connections** |  |
 | **Dominion** | "[[Kingdom of Thrane]]" |
 | **Location** | "[[West Marsh]]", "[[Siren Coast]]" |
+| **Organization** | "[[Church of the Regal Guardian]]", "[[Cult of Asmodeus]]" |
 | **Other** |  |
+| **Defence** | Formidable |
+| **Export** | Grain, Cotton, Tobacco, Fish, Textiles |
 | **Governmenttype** | Monarchy, Feudalism |
+| **Import** | Lumber, Stone, Steel, Gemstones, Spices, Weapons, Armor |
 | **Population** | 1,543,276 |
 | **Terrain** | Marsh, Coastline, Plains |
 

@@ -14,6 +14,8 @@ type: settlement
 | **Dominion** | "[[Seabrook Town Council]]" |
 | **Location** | "[[Endor Forest]]", "[[Siren Coast]]" |
 | **Other** |  |
+| **Defence** | Weak |
+| **Export** | Fish, Timber |
 | **Governmenttype** | Republic |
 | **Population** | 5,084 |
 | **Terrain** | Forest, Cliffs, Coastline |

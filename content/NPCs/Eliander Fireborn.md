@@ -17,6 +17,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Guard, Council Member |
+| **Organization** | "[[Seabrook Town Council]]" |
 | **Other** |  |
 
 </div>

@@ -13,6 +13,7 @@ type: poi
 | **Connections** |  |
 | **Assistant** | "[[Otto Graves]]" |
 | **Location** | "[[Oldport Port]]" |
+| **Owner** | "[[Lirielle Vaust]]" |
 | **Other** |  |
 
 </div>

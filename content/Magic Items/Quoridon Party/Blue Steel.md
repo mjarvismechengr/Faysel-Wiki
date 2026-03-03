@@ -9,6 +9,7 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Previousowner** | "[[Breena Silverthread]]", "[[Hank Watson]]" |
 | **Other** |  |
 
 </div>

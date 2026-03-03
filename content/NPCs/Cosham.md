@@ -17,6 +17,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Entertainer |
+| **Religion** | "[[Revelers of the Merry Maiden]]" |
 | **Other** |  |
 
 </div>

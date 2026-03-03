@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Black Warden, Scaled Tyrant, Iridescent Dragon, Destroyer |
 | **Pronounced** | mun-EYE |
 | **Connections** |  |
+| **Organization** | "[[Warden's Accord]]" |
 | **Other** |  |
 | **Domain** | Dragons, Wealth, Greed, Destruction, Trade, Pride |
 

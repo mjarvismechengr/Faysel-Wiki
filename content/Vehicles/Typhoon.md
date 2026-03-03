@@ -11,6 +11,8 @@ type: vehicle
 | **Bio** |  |
 | **Aliases** | [] |
 | **Connections** |  |
+| **Creator** | "[[Iskandar]]" |
+| **Previousowner** | "[[Iskandar]]" |
 | **Other** |  |
 
 </div>

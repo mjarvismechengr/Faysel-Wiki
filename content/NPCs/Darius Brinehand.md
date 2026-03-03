@@ -16,6 +16,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Priest |
+| **Religion** | "[[Brotherhood of the Crashing Wave]]" |
 | **Other** |  |
 
 </div>

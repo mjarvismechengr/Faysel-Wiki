@@ -12,6 +12,7 @@ type: poi
 | **Assistant** | "[[Ferrin Kastilar]]" |
 | **Location** | "[[South Seabrook]]" |
 | **Organization** | "[[Greenheart Kin]]" |
+| **Owner** | "[[Rambak]]" |
 | **Other** |  |
 
 </div>

@@ -14,6 +14,8 @@ type: settlement
 | **Dominion** | "[[Unclaimed Territory]]" |
 | **Location** | "[[Endor Forest]]", "[[Siren Coast]]" |
 | **Other** |  |
+| **Defence** | Weak |
+| **Export** | Lumber, Fish |
 | **Population** | 2,004 |
 | **Terrain** | Forest, Coastline |
 

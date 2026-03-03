@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Assistant** | "[[Thessa Brewthorn]]" |
 | **Location** | "[[Old Seabrook]]" |
+| **Owner** | "[[Lankus Kurrid]]" |
 | **Other** |  |
 
 </div>

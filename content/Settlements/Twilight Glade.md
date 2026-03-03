@@ -11,6 +11,7 @@ type: settlement
 | **Connections** |  |
 | **Dominion** | "[[Twilight Enclave]]" |
 | **Location** | "[[Endor Forest]]" |
+| **Organization** | "[[Twilight Enclave]]" |
 | **Other** |  |
 | **Terrain** | Forest |
 

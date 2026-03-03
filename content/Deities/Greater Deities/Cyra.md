@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Lifesmith, Holy Mother |
 | **Pronounced** | S-EYE-ruh |
 | **Connections** |  |
+| **Organization** | "[[Hearthforged Communion]]" |
 | **Other** |  |
 | **Domain** | Life, Creation, Family, Smithing, Love |
 

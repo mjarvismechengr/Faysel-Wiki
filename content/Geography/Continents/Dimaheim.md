@@ -13,6 +13,7 @@ type: geography
 | **Connections** |  |
 | **Dominion** | "[[Dimaheim Horde]]" |
 | **Location** | "[[Faysel]]" |
+| **Organization** | [] |
 | **Other** |  |
 | **Terrain** | Coastline, Fjord, Mountains, Tundra, Glacial Region, Volcanic Region, Continent |
 

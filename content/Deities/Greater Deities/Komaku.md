@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Twisted Mask, Oblivion's Face |
 | **Pronounced** | ko-MAH-ku |
 | **Connections** |  |
+| **Organization** | "[[Cult of Oblivion's Face]]" |
 | **Other** |  |
 | **Domain** | Sleep, Dreams, Fear, Madness, Nightmares, Illusion, Chaos |
 

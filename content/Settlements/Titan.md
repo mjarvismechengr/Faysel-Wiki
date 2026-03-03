@@ -11,8 +11,13 @@ type: settlement
 | **Connections** |  |
 | **Dominion** | "[[Kingdom of Thrane]]" |
 | **Location** | "[[Sky Razor Range]]" |
+| **Organization** | "[[Ring of Brass]]", "[[Hearthforged Communion]]" |
+| **Ruler** | "[[Nori Giantfinger]]" |
 | **Other** |  |
+| **Defence** | Formidable |
+| **Export** | Stone, Weapons, Armor, Ale, Horseshoes, Silverware |
 | **Governmenttype** | Feudalism |
+| **Import** | Grain, Steel, Precious Metals, Lumber, Hides, Livestock, Textiles |
 | **Population** | 62,371 |
 | **Terrain** | Mountains |
 

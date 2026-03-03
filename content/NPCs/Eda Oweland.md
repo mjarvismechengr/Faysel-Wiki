@@ -17,6 +17,9 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Merchant, Council Member |
+| **Organization** | "[[Seabrook Town Council]]" |
+| **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 
 </div>

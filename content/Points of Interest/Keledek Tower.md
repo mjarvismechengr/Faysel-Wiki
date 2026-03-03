@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[Seabrook]]" |
+| **Owner** | "[[Keledek]]" |
 | **Other** |  |
 
 </div>

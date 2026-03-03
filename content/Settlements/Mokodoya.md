@@ -14,6 +14,7 @@ type: settlement
 | **Dominion** | "[[Clan Sakai]]", "[[Shimazu Shogunate]]" |
 | **Location** | "[[Tatakai Prefecture]]" |
 | **Other** |  |
+| **Defence** | Strong |
 | **Terrain** | Coastline, Forest, Hills |
 
 </div>

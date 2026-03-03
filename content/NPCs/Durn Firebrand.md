@@ -17,6 +17,9 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Miner |
+| **Organization** | "[[Tin Tunnels Mining Co.]]" |
+| **Religion** | "[[Hearthforged Communion]]" |
 | **Other** |  |
 
 </div>

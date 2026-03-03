@@ -14,6 +14,7 @@ type: settlement
 | **Dominion** | "[[Unclaimed Territory]]" |
 | **Location** | "[[Padrich Woods]]", "[[Sky Razor Range]]" |
 | **Other** |  |
+| **Defence** | Pathetic |
 | **Population** | "614" |
 | **Terrain** | Mountains, Forest |
 

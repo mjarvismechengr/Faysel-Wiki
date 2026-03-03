@@ -17,6 +17,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Council Member, Merchant |
+| **Organization** | "[[Seabrook Town Council]]" |
 | **Other** |  |
 
 </div>

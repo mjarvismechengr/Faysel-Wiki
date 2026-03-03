@@ -12,7 +12,10 @@ type: settlement
 | **Aliases** | Promise of Light |
 | **Connections** |  |
 | **Location** | "[[Sunrise Cliffs]]", "[[Stovlok Sea]]" |
+| **Organization** | "[[Order of the Threefold Sun]]" |
 | **Other** |  |
+| **Defence** | Strong |
+| **Export** | Wine, Stone, Pottery, Medicinal Plants, Marble, Alabaster, Grain |
 | **Governmenttype** | Theocracy, Bureaucracy |
 | **Population** | 152,462 |
 | **Terrain** | Cliffs, Coastline, Plains, Hills |

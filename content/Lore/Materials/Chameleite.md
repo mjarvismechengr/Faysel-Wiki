@@ -9,6 +9,7 @@ type: material
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Location** | "[[Black Marble Mountains]]" |
 | **Other** |  |
 
 </div>

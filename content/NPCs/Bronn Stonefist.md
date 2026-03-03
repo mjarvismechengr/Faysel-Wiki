@@ -19,6 +19,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Entertainer, Musician |
+| **Organization** | "[[Three Dwarves Down]]" |
 | **Other** |  |
 
 </div>

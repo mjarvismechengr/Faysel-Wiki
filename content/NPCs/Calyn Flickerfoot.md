@@ -18,6 +18,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Guard, Hunter |
+| **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 
 </div>

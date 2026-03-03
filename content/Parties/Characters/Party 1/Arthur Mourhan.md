@@ -18,6 +18,7 @@ type: player
 | **Status** |  |
 | **Condition** | Sick |
 | **Connections** |  |
+| **Occupation** | Adventurer, Hunter |
 | **Other** |  |
 | **Playedby** | Russ |
 | **Weight** | 175 (lb) |

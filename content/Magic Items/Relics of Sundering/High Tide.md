@@ -9,6 +9,7 @@ type: magicitem
 |  |  |
 |---|---|
 | **Connections** |  |
+| **Previousowner** | "[[Iskandar]]" |
 | **Previousowners** | "[[Iskandar]]" |
 | **Other** |  |
 

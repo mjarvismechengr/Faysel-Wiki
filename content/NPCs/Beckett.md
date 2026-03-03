@@ -16,6 +16,7 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Farmer |
 | **Other** |  |
 
 </div>

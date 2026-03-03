@@ -16,6 +16,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Dead |
 | **Connections** |  |
+| **Occupation** | Entertainer, Mercenary |
+| **Organization** | "[[Cult of Daghor]]" |
 | **Other** |  |
 
 </div>

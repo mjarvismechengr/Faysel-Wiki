@@ -11,6 +11,7 @@ type: magicitem
 | **Bio** |  |
 | **Aliases** | Whip of Gomios |
 | **Connections** |  |
+| **Previousowner** | "[[Hank Watson]]" |
 | **Other** |  |
 
 </div>

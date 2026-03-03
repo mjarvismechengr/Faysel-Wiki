@@ -11,6 +11,7 @@ type: magicitem
 | **Bio** |  |
 | **Aliases** | The Tyrite Blade |
 | **Connections** |  |
+| **Previousowner** | "[[Cyrus]]" |
 | **Other** |  |
 
 </div>

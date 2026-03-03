@@ -13,6 +13,7 @@ type: area
 | **Connections** |  |
 | **Dominion** | "[[Dramsfjord Enclave]]" |
 | **Location** | "[[Dimaheim]]" |
+| **Organization** | "[[Dramsfjord Enclave]]" |
 | **Other** |  |
 | **Terrain** | Fjord |
 

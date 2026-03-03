@@ -10,6 +10,7 @@ type: poi
 |---|---|
 | **Connections** |  |
 | **Location** | "[[Bromjinar]]" |
+| **Owner** | "[[Dotrice]]", "[[Beckett]]", "[[Tes]]", "[[Wally]]" |
 | **Other** |  |
 
 </div>

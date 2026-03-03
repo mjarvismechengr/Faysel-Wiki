@@ -18,6 +18,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Miner, Council Member |
+| **Organization** | "[[Tin Tunnels Mining Co.]]", "[[Seabrook Town Council]]" |
 | **Other** |  |
 
 </div>

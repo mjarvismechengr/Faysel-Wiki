@@ -14,6 +14,8 @@ type: settlement
 | **Dominion** | "[[Unclaimed Territory]]" |
 | **Location** | "[[Iron Hills]]" |
 | **Other** |  |
+| **Defence** | Pathetic |
+| **Export** | Iron, Steel, Stone, Coal, Copper, Gemstones, Precious Metals |
 | **Population** | 6,336 |
 | **Terrain** | Plains, Hills |
 

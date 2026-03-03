@@ -18,6 +18,7 @@ type: player
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Adventurer, Tinker, Engineer, Miner |
 | **Other** |  |
 | **Playedby** | Cam |
 | **Weight** | 100 (lb) |

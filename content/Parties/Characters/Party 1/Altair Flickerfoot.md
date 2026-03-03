@@ -19,6 +19,9 @@ type: player
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Adventurer, Priest |
+| **Organization** | "[[Twilight Enclave]]" |
+| **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 | **Playedby** | Josh |
 | **Weight** | "142" |

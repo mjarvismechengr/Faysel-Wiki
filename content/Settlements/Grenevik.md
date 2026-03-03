@@ -12,6 +12,7 @@ type: settlement
 | **Dominion** | "[[Dimaheim Horde]]" |
 | **Location** | "[[Dimaheim]]", "[[Koryx River]]" |
 | **Other** |  |
+| **Defence** | Strong |
 | **Population** | 64,341 |
 | **Terrain** | Coastline, River, Tundra |
 

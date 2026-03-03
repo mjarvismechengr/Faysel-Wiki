@@ -12,6 +12,7 @@ type: poi
 | **Dominion** | "[[Sanbalet's Gang]]" |
 | **Location** | "[[Endor Forest]]" |
 | **Organization** | [] |
+| **Owner** | "[[Sanbalet]]" |
 | **Other** |  |
 
 </div>

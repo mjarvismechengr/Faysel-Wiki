@@ -14,6 +14,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Duke / Duchess, Noble |
+| **Organization** | "[[Kingdom of Thrane]]" |
 | **Other** |  |
 
 </div>

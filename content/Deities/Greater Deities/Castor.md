@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Shepherd of Stars, Twilight Watcher, All-Seeing Eye, Star Wanderer |
 | **Pronounced** | CAST-or |
 | **Connections** |  |
+| **Organization** | "[[Shepherd's Vigil]]" |
 | **Other** |  |
 | **Domain** | The Moon, Stars, Cosmos, Wisdom, Travelers, Vigilance |
 

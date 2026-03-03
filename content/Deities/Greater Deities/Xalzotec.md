@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Bat God of Night |
 | **Pronounced** | zal-zo-TEK |
 | **Connections** |  |
+| **Organization** | "[[Umbral Synod]]" |
 | **Other** |  |
 | **Domain** | Night, Sacrifice, Secrets, Stealth, Subterfuge, Death, Undeath, Blood |
 

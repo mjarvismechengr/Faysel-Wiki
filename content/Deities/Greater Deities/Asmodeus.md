@@ -12,6 +12,7 @@ type: deity
 | **Aliases** | Lord of the Nine Hells, Red God, Prince of Evil, Lord of Nessus, Lord of the Ruby Rod, The Great Devil |
 | **Pronounced** | az-MO-dee-us |
 | **Connections** |  |
+| **Organization** | "[[Cult of Asmodeus]]" |
 | **Other** |  |
 | **Domain** | Ambition, Power, Speechcraft, Lies, Indulgence, Enslavement, Tyranny, Contracts, Hedonism, Corruption |
 

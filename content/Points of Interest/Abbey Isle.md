@@ -11,6 +11,7 @@ type: poi
 | **Connections** |  |
 | **Dominion** | "[[Mariners' Guild]]" |
 | **Location** | "[[Siren Sea]]" |
+| **Owner** | "[[Riona Vex]]" |
 | **Other** |  |
 
 </div>

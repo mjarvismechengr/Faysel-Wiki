@@ -17,6 +17,8 @@ type: npc
 | **Status** |  |
 | **Condition** | Healthy |
 | **Connections** |  |
+| **Occupation** | Blacksmith, Weaponsmith |
+| **Religion** | "[[Hearthforged Communion]]" |
 | **Other** |  |
 
 </div>
