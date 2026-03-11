@@ -9,12 +9,16 @@ type: npc
 |  |  |
 |---|---|
 | **Bio** |  |
+| **Age** | Elderly |
 | **Aliases** | Duchess of Valorden |
+| **Ancestry** | Human |
+| **Build** | Rail Thin |
 | **Gender** | Female |
 | **Status** |  |
 | **Connections** |  |
 | **Occupation** | Duke / Duchess, Noble |
 | **Organization** | "[[Kingdom of Thrane]]" |
+| **Religion** | "[[Church of the Regal Guardian]]" |
 | **Other** |  |
 
 </div>

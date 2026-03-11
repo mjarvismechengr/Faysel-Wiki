@@ -162,7 +162,14 @@ NPCs/Gellan Primewater.md
 NPCs/Ghorza Kuisma.md
 NPCs/Glick Tinker.md
 NPCs/Gwen Tinker.md
+NPCs/Hanna Rist.md
 NPCs/Herenya Bewne.md
+NPCs/Hogaak.md
+NPCs/Ingo Illinar.md
+NPCs/Jane Mourhan.md
+NPCs/Jasker.md
+NPCs/Jonas Greaves.md
+NPCs/Keledek.md
 NPCs/Manistrad Copperlocks.md
 NPCs/Mirelle Rotryett.md
 NPCs/Stenwulf Vael.md
