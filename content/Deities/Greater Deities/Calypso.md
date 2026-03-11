@@ -12,7 +12,6 @@ type: deity
 | **Aliases** | Steward of Seasons |
 | **Pronounced** | cuh-LIP-so |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Organization** | "[[Covenant of the Turning Wheel]]" |
 | **Other** |  |

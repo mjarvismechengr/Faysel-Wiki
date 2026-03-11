@@ -12,7 +12,6 @@ type: deity
 | **Aliases** | The Chainbinder |
 | **Pronounced** | OH-grick |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Other** |  |
 | **Domain** | Tyranny, Evil |
 

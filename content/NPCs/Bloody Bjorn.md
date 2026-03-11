@@ -14,7 +14,6 @@ type: npc
 | **Build** | Thicc |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Smuggler, Sailor |
 | **Organization** | "[[Sanbalet's Gang]]" |

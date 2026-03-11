@@ -15,7 +15,6 @@ type: player
 | **Height** | 6 (ft) |
 | **Pronounced** | doe-TREECE |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Adventurer, Entertainer |
 | **Other** |  |

@@ -16,7 +16,6 @@ type: player
 | **Height** | 6'4" (ft,in) |
 | **Pronounced** | LOO-see-in |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Adventurer |
 | **Other** |  |

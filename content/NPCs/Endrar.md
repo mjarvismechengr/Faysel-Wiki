@@ -15,7 +15,6 @@ type: npc
 | **Build** | Cut |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Political Advisor |
 | **Religion** | "[[Order of the Threefold Sun]]" |

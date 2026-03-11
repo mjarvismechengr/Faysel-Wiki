@@ -15,7 +15,6 @@ type: npc
 | **Gender** | Female |
 | **Pronounced** | AY-duh OWE-land |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Merchant, Council Member |
 | **Organization** | "[[Seabrook Town Council]]" |

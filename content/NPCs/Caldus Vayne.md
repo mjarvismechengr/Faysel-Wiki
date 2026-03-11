@@ -16,7 +16,6 @@ type: npc
 | **Gender** | Male |
 | **Pronounced** | CAHL-duhs VEIN |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Adventurer, Mercenary |
 | **Organization** | "[[Gilded Compass]]", "[[Order of Saint Kyren]]" |

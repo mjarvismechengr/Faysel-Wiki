@@ -14,7 +14,6 @@ type: npc
 | **Build** | Slightly Overweight |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Farmer |
 | **Other** |  |

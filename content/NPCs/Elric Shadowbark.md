@@ -15,7 +15,6 @@ type: npc
 | **Gender** | Male |
 | **Heritage** | Wood-Elf |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Council Member |
 | **Organization** | "[[Twilight Enclave]]" |

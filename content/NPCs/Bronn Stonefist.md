@@ -17,7 +17,6 @@ type: npc
 | **Heritage** | Mountain-Dwarf |
 | **Pronounced** | BRAHN STOHN-fist |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Entertainer, Musician |
 | **Organization** | "[[Three Dwarves Down]]" |

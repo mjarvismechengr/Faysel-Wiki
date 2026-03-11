@@ -16,7 +16,6 @@ type: npc
 | **Height** | 4'8" (ft,in) |
 | **Heritage** | Hill-Dwarf |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Miner, Council Member |
 | **Organization** | "[[Tin Tunnels Mining Co.]]", "[[Seabrook Town Council]]" |

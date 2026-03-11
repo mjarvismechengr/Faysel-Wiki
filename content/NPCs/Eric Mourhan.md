@@ -14,7 +14,6 @@ type: npc
 | **Build** | Slender |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Religion** | "[[Shepherd's Vigil]]" |
 | **Other** |  |

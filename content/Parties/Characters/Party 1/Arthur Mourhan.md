@@ -16,7 +16,6 @@ type: player
 | **Height** | 6 (ft) |
 | **Pronounced** | AR-thur |
 | **Status** |  |
-| **Condition** | Sick |
 | **Connections** |  |
 | **Occupation** | Adventurer, Hunter |
 | **Other** |  |

@@ -15,7 +15,6 @@ type: npc
 | **Gender** | Male |
 | **Heritage** | Mountain-Dwarf |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Blacksmith, Weaponsmith |
 | **Religion** | "[[Hearthforged Communion]]" |

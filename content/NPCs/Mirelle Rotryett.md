@@ -15,7 +15,6 @@ type: npc
 | **Build** | Slender |
 | **Gender** | Female |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Count / Countess, Noble |
 | **Organization** | "[[House Rotryett]]", "[[Kingdom of Thrane]]" |

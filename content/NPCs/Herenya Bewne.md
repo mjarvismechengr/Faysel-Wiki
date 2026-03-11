@@ -12,7 +12,6 @@ type: npc
 | **Aliases** | Duchess of Valorden |
 | **Gender** | Female |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Duke / Duchess, Noble |
 | **Organization** | "[[Kingdom of Thrane]]" |

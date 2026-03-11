@@ -15,7 +15,6 @@ type: npc
 | **Gender** | Male |
 | **Height** | 6'3" (ft,in) |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Guard, Council Member |
 | **Organization** | "[[Seabrook Town Council]]" |

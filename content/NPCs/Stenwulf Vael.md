@@ -16,7 +16,6 @@ type: npc
 | **Gender** | Male |
 | **Heritage** | Half-Elf |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Duke / Duchess, Noble |
 | **Organization** | "[[House Vael]]", "[[Kingdom of Thrane]]" |

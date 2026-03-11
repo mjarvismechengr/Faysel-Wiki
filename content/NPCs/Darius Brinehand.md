@@ -14,7 +14,6 @@ type: npc
 | **Build** | Normal |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Priest |
 | **Religion** | "[[Brotherhood of the Crashing Wave]]" |

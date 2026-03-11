@@ -16,7 +16,6 @@ type: npc
 | **Heritage** | Wood-Elf |
 | **Pronounced** | K-lin |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Guard, Hunter |
 | **Religion** | "[[Shepherd's Vigil]]" |

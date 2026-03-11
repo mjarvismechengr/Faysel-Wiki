@@ -16,7 +16,6 @@ type: npc
 | **Gender** | Female |
 | **Pronounced** | synth-LEER-ee-ah |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Healer |
 | **Religion** | "[[Order of the Threefold Sun]]" |

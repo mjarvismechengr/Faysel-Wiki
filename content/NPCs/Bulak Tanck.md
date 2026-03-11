@@ -16,7 +16,6 @@ type: npc
 | **Heritage** | Half-Orc |
 | **Pronounced** | boo-LOCK TONK |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Council Member |
 | **Organization** | "[[Dramsfjord Enclave]]" |

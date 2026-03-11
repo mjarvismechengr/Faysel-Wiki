@@ -16,7 +16,6 @@ type: player
 | **Heritage** | Half-Orc |
 | **Pronounced** | BO-dee OR-simmer |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Gladiator, Adventurer |
 | **Organization** | "[[Dramsfjord Enclave]]" |

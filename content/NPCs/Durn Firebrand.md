@@ -15,7 +15,6 @@ type: npc
 | **Gender** | Male |
 | **Heritage** | Mountain-Dwarf |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Miner |
 | **Organization** | "[[Tin Tunnels Mining Co.]]" |

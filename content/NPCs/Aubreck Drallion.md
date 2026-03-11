@@ -16,7 +16,6 @@ type: npc
 | **Height** | 5'8" |
 | **Pronounced** | AWE-brek dr-ALL-ee-un |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Merchant |
 | **Other** |  |

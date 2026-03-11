@@ -16,7 +16,6 @@ type: player
 | **Heritage** | Warforged-Construct |
 | **Pronounced** | BAR-dock |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Adventurer |
 | **Other** |  |

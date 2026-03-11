@@ -14,7 +14,6 @@ type: npc
 | **Build** | Slender |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Dead |
 | **Connections** |  |
 | **Occupation** | Entertainer, Mercenary |
 | **Organization** | "[[Cult of Daghor]]" |

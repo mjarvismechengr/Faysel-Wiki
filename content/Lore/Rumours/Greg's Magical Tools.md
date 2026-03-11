@@ -10,7 +10,7 @@ type: rumor
 | **Status** |  |
 | **Status** | ⏳ |
 | **Connections** |  |
-| **Origin** | "[[Glick]]" |
+| **Origin** | "[[Glick Tinker]]" |
 | **Subject** | "[[Grebambit Bafflebob]]" |
 | **Other** |  |
 
@@ -19,5 +19,5 @@ type: rumor
 
 ## Overview
 
-All through his youth, [[Rex Tinker]] was told stories by his father, [[Glick]], of a legendary artificer named _Greg the Creator_ and his magical tinker's tools. The stories claim the tools were capable of feats no modern craft can replicate. No one knows where these tools are now, or if they still exist at all.
+All through his youth, [[Rex Tinker]] was told stories by his father, [[Glick Tinker]], of a legendary artificer named _Greg the Creator_ and his magical tinker's tools. The stories claim the tools were capable of feats no modern craft can replicate. No one knows where these tools are now, or if they still exist at all.
 

@@ -17,7 +17,6 @@ type: npc
 | **Heritage** | Storm Giant |
 | **Pronounced** | DESS-i-muss AHG-mar |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Gladiator |
 | **Other** |  |

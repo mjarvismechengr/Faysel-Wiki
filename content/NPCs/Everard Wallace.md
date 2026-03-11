@@ -15,7 +15,6 @@ type: npc
 | **Build** | Cut |
 | **Gender** | Male |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Count / Countess, Noble |
 | **Organization** | "[[House Wallace]]", "[[Kingdom of Thrane]]" |

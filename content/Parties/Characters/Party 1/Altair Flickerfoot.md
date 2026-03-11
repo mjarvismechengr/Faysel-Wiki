@@ -17,7 +17,6 @@ type: player
 | **Heritage** | Wood-Elf |
 | **Pronounced** | al-tay-AIR |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Adventurer, Priest |
 | **Organization** | "[[Twilight Enclave]]" |

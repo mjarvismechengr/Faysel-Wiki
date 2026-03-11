@@ -15,7 +15,6 @@ type: npc
 | **Gender** | Male |
 | **Height** | 5'8" (ft,in) |
 | **Status** |  |
-| **Condition** | Healthy |
 | **Connections** |  |
 | **Occupation** | Council Member, Merchant |
 | **Organization** | "[[Seabrook Town Council]]" |
