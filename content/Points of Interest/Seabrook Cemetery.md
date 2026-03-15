@@ -9,7 +9,7 @@ type: poi
 |  |  |
 |---|---|
 | **Connections** |  |
-| **Assistant** | "[[Krag]]" |
+| **Assistant** | "[[Krag Bramblebough]]" |
 | **Location** | "[[Old Seabrook]]" |
 | **Other** |  |
 

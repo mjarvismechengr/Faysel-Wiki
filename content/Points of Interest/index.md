@@ -29,7 +29,7 @@ title: Points of Interest
 - [[Points of Interest/Moonfall Masks|Moonfall Masks]]
 - [[Points of Interest/Mt. Mertari|Mt. Mertari]]
 - [[Points of Interest/Mt. Storm King|Mt. Storm King]]
-- [[Points of Interest/Oldport’s Sinking Catacombs|Oldport’s Sinking Catacombs]]
+- [[Points of Interest/Oldport's Sinking Catacombs|Oldport's Sinking Catacombs]]
 - [[Points of Interest/Oweland House|Oweland House]]
 - [[Points of Interest/Party Location|Party Location]]
 - [[Points of Interest/Primewater Mansion|Primewater Mansion]]

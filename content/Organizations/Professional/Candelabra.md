@@ -44,7 +44,7 @@ Though the Candelabra does not officially govern, its subtle influence guides an
 <u>** _Archmage of Artifice:_**</u> [[Luthra Waggletop]] 
 
 - **Expertise:** Magical Engineering, Constructs, and Enchanted Items.
-- **Tower:** [[The Orrery of Brass]] 
+- **Tower:** [[Orrery of Brass]] 
 
 
 <u>** _Archmage of Exploration:_**</u> [[Collete Moreau]]

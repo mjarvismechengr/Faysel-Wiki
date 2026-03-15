@@ -3,8 +3,8 @@ type: poi
 ---
 
 <div class="infobox">
-<div class="infobox-title">Oldport’s Sinking Catacombs</div>
-<img class="infobox-image" src="/z_Assets/POIs/Oldport's Catacombs.png" alt="Oldport’s Sinking Catacombs">
+<div class="infobox-title">Oldport's Sinking Catacombs</div>
+<img class="infobox-image" src="/z_Assets/POIs/Oldport's Catacombs.png" alt="Oldport's Sinking Catacombs">
 
 |  |  |
 |---|---|

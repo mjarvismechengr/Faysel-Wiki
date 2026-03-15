@@ -170,9 +170,45 @@ NPCs/Jane Mourhan.md
 NPCs/Jasker.md
 NPCs/Jonas Greaves.md
 NPCs/Keledek.md
+NPCs/Kevori Fearnehart.md
+NPCs/Kiorna Kester.md
+NPCs/Kraddok Stonehorn.md
+NPCs/Kreb Shenker.md
+NPCs/Krell Grohlg.md
+NPCs/Lankus Kurrid.md
+NPCs/Lirielle Vaust.md
+NPCs/Loz.md
+NPCs/Luthra Waggletop.md
+NPCs/Lytharion Solmara.md
+NPCs/M'aiq.md
 NPCs/Manistrad Copperlocks.md
 NPCs/Mirelle Rotryett.md
+NPCs/Norlin Ironsong.md
+NPCs/Odium.md
+NPCs/Ogmund.md
+NPCs/Olga Kokko.md
+NPCs/Orion Starwatcher.md
+NPCs/Ozymandias.md
+NPCs/Padmaja.md
+NPCs/Patches.md
+NPCs/Pop.md
+NPCs/Punketah.md
+NPCs/Riona Vex.md
+NPCs/Sanbalet.md
+NPCs/Sorin Flickerfoot.md
 NPCs/Stenwulf Vael.md
+NPCs/Sylvaris Flickerfoot.md
+NPCs/Tes.md
+NPCs/Thessa Brewthorn.md
+NPCs/Topal Boat-Breaker.md
+NPCs/Torgrin Brightflame.md
+NPCs/Vertheg.md
+NPCs/Wally.md
+NPCs/William Mourhan.md
+NPCs/Winston Hool.md
+NPCs/Wolgar Windrune.md
+NPCs/Xendros.md
+NPCs/Zalryr.md
 Oceans/Mangchida Ocean.md
 Oceans/Nagaru Ocean.md
 Oceans/Seas/Blood Sea.md
@@ -284,7 +320,7 @@ Points of Interest/Mariners' Guildhall (Seabrook).md
 Points of Interest/Moonfall Masks.md
 Points of Interest/Mt. Mertari.md
 Points of Interest/Mt. Storm King.md
-Points of Interest/Oldport’s Sinking Catacombs.md
+Points of Interest/Oldport's Sinking Catacombs.md
 Points of Interest/Oweland House.md
 Points of Interest/Party Location.md
 Points of Interest/Primewater Mansion.md

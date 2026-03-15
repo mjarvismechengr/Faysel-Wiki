@@ -19,8 +19,6 @@ type: npc
 | **Status** |  |
 | **Connections** |  |
 | **Occupation** | Mage |
-| **Organization** | [] |
-| **Religion** | [] |
 | **Other** |  |
 
 </div>
