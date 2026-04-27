@@ -33,7 +33,7 @@ Thalia is one of the four mortals who ascended to godhood, and she has never for
 
 Thalia appears as an ever-changing vision of beauty, her form shifting subtly with mood, music, and moment. She is often depicted wearing vibrant, flowing garments that seem to move of their own accord, swirling with color and motion like a living dance.
 
-Her laughter is said to ignite rooms, loosen hearts, and dissolve despair. Her eyes glitter with mirth and mischief, always watching for the next story, the next spark of joy, the next opportunity for indulgence. She carries a lute woven from living vines, [[Melody’s Muse]], from which she draws songs that stir passion, creativity, and reckless courage.
+Her laughter is said to ignite rooms, loosen hearts, and dissolve despair. Her eyes glitter with mirth and mischief, always watching for the next story, the next spark of joy, the next opportunity for indulgence. She carries a lute woven from living vines, [[Melody's Muse]], from which she draws songs that stir passion, creativity, and reckless courage.
 
 In some depictions, Thalia appears barefoot amid festivals, taverns, and street performances. In others, she is shown lounging among lovers, musicians, and poets, wine spilling freely as inspiration flows just as easily. No single image defines her, because joy itself refuses to be fixed.
 
@@ -73,7 +73,7 @@ Among the pantheon, Thalia is often dismissed as frivolous. This is a mistake sh
 
 ## Myth and History
 
-When [[the Sundering began]], cities fell, plagues spread, famine took hold, and war consumed the world. While gods debated, plotted, or withdrew, Thalia refused despair.
+When [[the Sundering]] began, cities fell, plagues spread, famine took hold, and war consumed the world. While gods debated, plotted, or withdrew, Thalia refused despair.
 
 At what many believed was the end of all things, she organized what became known as the One Last Hurrah. Music filled ruined streets, wine flowed freely, lovers danced beneath collapsing skies, and stories were told not of fear, but of life lived fully. For a brief moment, the world remembered why it was worth saving.
 

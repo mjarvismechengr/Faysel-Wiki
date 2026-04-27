@@ -47,6 +47,7 @@ Deities/Greater Deities/Solara.md
 Deities/Greater Deities/Thalia.md
 Deities/Greater Deities/Ukaleq.md
 Deities/Greater Deities/Xalzotec.md
+Deities/Lesser Deities/Lolth.md
 Districts/Seabrook/Old Seabrook.md
 Districts/Seabrook/Seabrook Island.md
 Districts/Seabrook/South Seabrook.md
@@ -286,12 +287,14 @@ Parties/Session Notes/Party 1/Session 10.md
 Parties/Session Notes/Party 1/Session 11.md
 Parties/Session Notes/Party 1/Session 12.md
 Parties/Session Notes/Party 1/Session 13.md
+Parties/Session Notes/Party 1/Session 14.md
 Planes/Astral Sea.md
 Planes/Inner Planes/Elemental Planes.md
 Planes/Inner Planes/Feywild.md
 Planes/Inner Planes/Material Plane.md
 Planes/Inner Planes/Shadowfell.md
-Planes/Outer Planes/Abyss.md
+Planes/Outer Planes/Abyss/Abyss.md
+Planes/Outer Planes/Abyss/Demonweb Pits.md
 Planes/Outer Planes/Nine Hells of Baator.md
 Planets/Castor's Eye.md
 Planets/Faysel.md
@@ -305,6 +308,7 @@ Points of Interest/Carpenters’ Guildhall (Seabrook).md
 Points of Interest/Chasmkeep.md
 Points of Interest/Council Hall (Seabrook).md
 Points of Interest/Dotrice's Home.md
+Points of Interest/Drallion Mansion.md
 Points of Interest/Eliander's House.md
 Points of Interest/Empty Net.md
 Points of Interest/Endwatch Tower.md

@@ -14,6 +14,7 @@ title: Points of Interest
 - [[Points of Interest/Chasmkeep|Chasmkeep]]
 - [[Points of Interest/Council Hall (Seabrook)|Council Hall (Seabrook)]]
 - [[Points of Interest/Dotrice's Home|Dotrice's Home]]
+- [[Points of Interest/Drallion Mansion|Drallion Mansion]]
 - [[Points of Interest/Eliander's House|Eliander's House]]
 - [[Points of Interest/Empty Net|Empty Net]]
 - [[Points of Interest/Endwatch Tower|Endwatch Tower]]
