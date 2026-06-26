@@ -65,6 +65,7 @@ title: NPCs
 - [[NPCs/Punketah|Punketah]]
 - [[NPCs/Riona Vex|Riona Vex]]
 - [[NPCs/Sanbalet|Sanbalet]]
+- [[NPCs/Savu|Savu]]
 - [[NPCs/Sorin Flickerfoot|Sorin Flickerfoot]]
 - [[NPCs/Stenwulf Vael|Stenwulf Vael]]
 - [[NPCs/Sylvaris Flickerfoot|Sylvaris Flickerfoot]]

@@ -196,6 +196,7 @@ NPCs/Pop.md
 NPCs/Punketah.md
 NPCs/Riona Vex.md
 NPCs/Sanbalet.md
+NPCs/Savu.md
 NPCs/Sorin Flickerfoot.md
 NPCs/Stenwulf Vael.md
 NPCs/Sylvaris Flickerfoot.md
@@ -288,6 +289,8 @@ Parties/Session Notes/Party 1/Session 11.md
 Parties/Session Notes/Party 1/Session 12.md
 Parties/Session Notes/Party 1/Session 13.md
 Parties/Session Notes/Party 1/Session 14.md
+Parties/Session Notes/Party 1/Session 15.md
+Parties/Session Notes/Party 1/Session 16.md
 Planes/Astral Sea.md
 Planes/Inner Planes/Elemental Planes.md
 Planes/Inner Planes/Feywild.md
@@ -349,6 +352,7 @@ Points of Interest/The Snapping Line.md
 Points of Interest/The Wicker Goat.md
 Points of Interest/Tin Tunnels Mine.md
 Points of Interest/Tin Tunnels Mining Office.md
+Points of Interest/Undiscovered/Endor Research Tower.md
 Points of Interest/Wakening Courtyard.md
 Points of Interest/Widow's Light.md
 Points of Interest/Winston's Store.md
