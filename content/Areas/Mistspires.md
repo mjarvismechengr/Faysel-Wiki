@@ -18,7 +18,7 @@ type: area
 
 ## Overview 
 
-The Mistspires are a vast region of levitating mountains, shattered plateaus, and drifting stone masses that form the southern reaches of the continent of [[Wanakona]]. Though often described as being in the sky, the Mistspires are better understood as a broken landscape suspended in constant motion, anchored loosely by gravity, magic, and mist rather than by bedrock.
+The Mistspires are a vast region of levitating mountains, shattered plateaus, and drifting stone masses that form the southern reaches of the continent of [[Wanakona]]. Though often described as being in the sky, the Mistspires are better understood as a broken landscape suspended in constant motion, anchored loosely by gravity and magic.
 
 According to myth, the Mistspires were created during the making of [[Manai]], when a portion of [[Al'Dira]] was torn violently from the world. This act severed the land bridge that once connected Al’Dira to Wanakona and left the surrounding region steeped in unstable planar energy. The damage never healed. Instead, the land fractured, rose, and refused to settle, creating the floating spires seen today.
 

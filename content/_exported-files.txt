@@ -204,6 +204,7 @@ NPCs/Tes.md
 NPCs/Thessa Brewthorn.md
 NPCs/Topal Boat-Breaker.md
 NPCs/Torgrin Brightflame.md
+NPCs/Unknown/Rhogar Nyxirius.md
 NPCs/Vertheg.md
 NPCs/Wally.md
 NPCs/William Mourhan.md
@@ -236,6 +237,7 @@ Organizations/Government/Shimazu Shogunate/Clan Takeda.md
 Organizations/Government/Shimazu Shogunate/Shimazu Shogunate.md
 Organizations/Government/Unclaimed Territory/Seabrook Town Council.md
 Organizations/Government/Unclaimed Territory/Twilight Enclave.md
+Organizations/Government/Wanakona Compact.md
 Organizations/Military/Order of Saint Kyren.md
 Organizations/Military/Rukhaal.md
 Organizations/Professional/Candelabra.md
@@ -314,6 +316,7 @@ Points of Interest/Dotrice's Home.md
 Points of Interest/Drallion Mansion.md
 Points of Interest/Eliander's House.md
 Points of Interest/Empty Net.md
+Points of Interest/Endor Research Tower.md
 Points of Interest/Endwatch Tower.md
 Points of Interest/Fishmonger (Seabrook).md
 Points of Interest/Glass Lake.md
@@ -352,7 +355,7 @@ Points of Interest/The Snapping Line.md
 Points of Interest/The Wicker Goat.md
 Points of Interest/Tin Tunnels Mine.md
 Points of Interest/Tin Tunnels Mining Office.md
-Points of Interest/Undiscovered/Endor Research Tower.md
+Points of Interest/Undiscovered/Asorin's Wall.md
 Points of Interest/Wakening Courtyard.md
 Points of Interest/Widow's Light.md
 Points of Interest/Winston's Store.md

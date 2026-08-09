@@ -4,4 +4,4 @@ title: Undiscovered
 
 # Undiscovered
 
-- [[Points of Interest\Undiscovered/Endor Research Tower|Endor Research Tower]]
+- [[Points of Interest\Undiscovered/Asorin's Wall|Asorin's Wall]]

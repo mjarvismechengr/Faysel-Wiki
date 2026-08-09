@@ -11,7 +11,7 @@ type: geography
 | **Bio** |  |
 | **Pronounced** | wah-nuh-KOH-nuh |
 | **Connections** |  |
-| **Dominion** | "[[Riftguard]]" |
+| **Dominion** | "[[Wanakona Compact]]" |
 | **Location** | "[[Faysel]]" |
 | **Other** |  |
 | **Terrain** | Archipelago, Cliffs, Forest, Swamp, Mountains, Continent |
@@ -25,7 +25,5 @@ Wanakona is a "continent" only in memory. Though broadly considered to once have
 
 The islands hold various biomes, including highlands, cliffs, forests, swamps, and mountains, but the legendary [[Mistspires]] are spoken of even in far flung villages across the world. Since it's shattering, the islands of Wanakona have become a nexus of planar activity, with rifts opening and closing regularly.   
 
-Wanakona is controlled by a pseudo-governmental organization known as the [[Riftguard]], that watches over the many planar rifts in the area. Most of Wankona's people are concentrated in the city of [[Amytherian]], with other small towns, and outposts dotting the islands.
-
-Though steeped in legend, Wanakona is feared as much as it is revered, its shattered geography and unstable reality serving as a reminder of the cost of divine intervention.
+Wanakona is controlled by a pseudo-governmental organization known as the [[Wanakona Compact]], that watches over the many planar rifts in the area. Most of Wankona's people are concentrated in the city of [[Amytherian]], with other small towns, and outposts dotting the islands.
 

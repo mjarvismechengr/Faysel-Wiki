@@ -17,6 +17,7 @@ title: Points of Interest
 - [[Points of Interest/Drallion Mansion|Drallion Mansion]]
 - [[Points of Interest/Eliander's House|Eliander's House]]
 - [[Points of Interest/Empty Net|Empty Net]]
+- [[Points of Interest/Endor Research Tower|Endor Research Tower]]
 - [[Points of Interest/Endwatch Tower|Endwatch Tower]]
 - [[Points of Interest/Fishmonger (Seabrook)|Fishmonger (Seabrook)]]
 - [[Points of Interest/Glass Lake|Glass Lake]]
